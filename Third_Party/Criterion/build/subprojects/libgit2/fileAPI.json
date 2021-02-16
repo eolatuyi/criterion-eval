@@ -1,0 +1,2769 @@
+{
+  "objects": [
+    {
+      "jsonFile": "codemodel-v2-b18215f1fb4f993280ed.json",
+      "kind": "codemodel",
+      "paths": {
+        "build": "/home/pi/Public/Criterion/build/subprojects/libgit2/__CMake_build",
+        "source": "/home/pi/Public/Criterion/subprojects/libgit2"
+      },
+      "configurations": [
+        {
+          "directories": [
+            {
+              "build": ".",
+              "targetIndexes": [
+                0
+              ],
+              "source": ".",
+              "projectIndex": 0,
+              "minimumCMakeVersion": {
+                "string": "2.8"
+              },
+              "hasInstallRule": true
+            }
+          ],
+          "projects": [
+            {
+              "directoryIndexes": [
+                0
+              ],
+              "targetIndexes": [
+                0
+              ],
+              "name": "libgit2"
+            }
+          ],
+          "name": "Debug",
+          "targets": [
+            {
+              "projectIndex": 0,
+              "type": "STATIC_LIBRARY",
+              "id": "git2::@6890427a1f51a3e7e1df",
+              "install": {
+                "prefix": {
+                  "path": "/usr/local"
+                },
+                "destinations": [
+                  {
+                    "path": "lib"
+                  }
+                ]
+              },
+              "paths": {
+                "build": ".",
+                "source": "."
+              },
+              "compileGroups": [
+                {
+                  "includes": [
+                    {
+                      "path": "/home/pi/Public/Criterion/subprojects/libgit2/src"
+                    },
+                    {
+                      "path": "/home/pi/Public/Criterion/subprojects/libgit2/include"
+                    },
+                    {
+                      "path": "/home/pi/Public/Criterion/subprojects/libgit2/deps/http-parser"
+                    },
+                    {
+                      "path": "/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib"
+                    }
+                  ],
+                  "language": "C",
+                  "defines": [
+                    {
+                      "define": "GIT_ARCH_32"
+                    },
+                    {
+                      "define": "GIT_THREADS"
+                    },
+                    {
+                      "define": "GIT_USE_NSEC"
+                    },
+                    {
+                      "define": "GIT_USE_STAT_MTIM"
+                    },
+                    {
+                      "define": "HAVE_FUTIMENS"
+                    },
+                    {
+                      "define": "HAVE_QSORT_R"
+                    },
+                    {
+                      "define": "NO_GZIP"
+                    },
+                    {
+                      "define": "NO_VIZ"
+                    },
+                    {
+                      "define": "STDC"
+                    },
+                    {
+                      "define": "_FILE_OFFSET_BITS=64"
+                    }
+                  ],
+                  "sourceIndexes": [
+                    79,
+                    81,
+                    84,
+                    86,
+                    88,
+                    91,
+                    93,
+                    95,
+                    97,
+                    99,
+                    101,
+                    103,
+                    106,
+                    108,
+                    109,
+                    111,
+                    113,
+                    116,
+                    118,
+                    119,
+                    121,
+                    122,
+                    124,
+                    125,
+                    127,
+                    128,
+                    130,
+                    132,
+                    134,
+                    136,
+                    138,
+                    139,
+                    140,
+                    142,
+                    144,
+                    145,
+                    147,
+                    149,
+                    151,
+                    153,
+                    155,
+                    157,
+                    159,
+                    160,
+                    162,
+                    163,
+                    165,
+                    167,
+                    169,
+                    171,
+                    175,
+                    177,
+                    179,
+                    180,
+                    182,
+                    184,
+                    186,
+                    188,
+                    190,
+                    191,
+                    193,
+                    194,
+                    195,
+                    197,
+                    199,
+                    202,
+                    204,
+                    206,
+                    208,
+                    210,
+                    212,
+                    214,
+                    216,
+                    218,
+                    220,
+                    222,
+                    224,
+                    226,
+                    228,
+                    229,
+                    231,
+                    233,
+                    235,
+                    237,
+                    239,
+                    242,
+                    244,
+                    245,
+                    246,
+                    247,
+                    249,
+                    250,
+                    252,
+                    254,
+                    256,
+                    258,
+                    259,
+                    261,
+                    264,
+                    267,
+                    269,
+                    271,
+                    273,
+                    275,
+                    277,
+                    279,
+                    281,
+                    282,
+                    284,
+                    286,
+                    288,
+                    289,
+                    290,
+                    291,
+                    292,
+                    294,
+                    295,
+                    296,
+                    298,
+                    299,
+                    301,
+                    303,
+                    305,
+                    307,
+                    309,
+                    312,
+                    314,
+                    316,
+                    319,
+                    320,
+                    321,
+                    324,
+                    326,
+                    328,
+                    331,
+                    332,
+                    333,
+                    335,
+                    337,
+                    338,
+                    341,
+                    343,
+                    345,
+                    349,
+                    351,
+                    353
+                  ],
+                  "compileCommandFragments": [
+                    {
+                      "fragment": "-D_GNU_SOURCE -Wall -Wextra  -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-const-variable -Wno-unused-function -g -fPIC"
+                    }
+                  ]
+                }
+              ],
+              "jsonFile": "target-git2-Debug-cf48c9f8031b158a3a8d.json",
+              "name": "git2",
+              "sources": [
+                {
+                  "path": "include/git2.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/annotated_commit.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/attr.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/blame.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/blob.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/branch.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/buffer.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/checkout.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/cherrypick.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/clone.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/commit.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/common.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/config.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/cred_helpers.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/describe.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/diff.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/errors.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/filter.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/global.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/graph.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/ignore.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/index.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/indexer.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/inttypes.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/merge.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/message.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/net.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/notes.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/object.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/odb.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/odb_backend.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/oid.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/oidarray.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/pack.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/patch.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/pathspec.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/proxy.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/rebase.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/refdb.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/reflog.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/refs.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/refspec.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/remote.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/repository.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/reset.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/revert.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/revparse.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/revwalk.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/signature.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/stash.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/status.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/stdint.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/strarray.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/submodule.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/sys/commit.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/sys/config.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/sys/diff.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/sys/filter.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/sys/hashsig.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/sys/index.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/sys/mempack.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/sys/merge.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/sys/odb_backend.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/sys/openssl.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/sys/refdb_backend.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/sys/reflog.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/sys/refs.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/sys/remote.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/sys/repository.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/sys/stream.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/sys/time.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/sys/transport.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/tag.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/trace.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/transaction.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/transport.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/tree.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/types.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "include/git2/version.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/annotated_commit.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/annotated_commit.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/apply.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/apply.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/array.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/attr.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/attr.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/attr_file.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/attr_file.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/attrcache.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/attrcache.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/bitvec.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/blame.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/blame.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/blame_git.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/blame_git.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/blob.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/blob.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/branch.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/branch.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/buf_text.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/buf_text.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/buffer.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/buffer.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/cache.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/cache.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/cc-compat.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/checkout.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/checkout.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/cherrypick.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/clone.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/clone.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/commit.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/commit.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/commit_list.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/commit_list.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/common.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/config.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/config.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/config_cache.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/config_file.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/config_file.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/crlf.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/curl_stream.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/curl_stream.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/date.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/delta.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/delta.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/describe.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/diff.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/diff.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/diff_driver.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/diff_driver.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/diff_file.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/diff_file.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/diff_generate.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/diff_generate.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/diff_parse.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/diff_parse.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/diff_print.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/diff_stats.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/diff_tform.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/diff_tform.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/diff_xdiff.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/diff_xdiff.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/errors.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/fetch.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/fetch.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/fetchhead.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/fetchhead.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/filebuf.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/filebuf.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/fileops.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/fileops.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/filter.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/filter.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/fnmatch.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/fnmatch.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/global.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/global.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/graph.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/hash.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/hash.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/hashsig.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/ident.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/idxmap.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/ignore.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/ignore.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/index.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/index.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/indexer.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/integer.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/iterator.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/iterator.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/khash.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/map.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/merge.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/merge.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/merge_driver.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/merge_driver.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/merge_file.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/message.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/message.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/mwindow.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/mwindow.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/netops.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/netops.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/notes.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/notes.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/object.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/object.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/object_api.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/odb.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/odb.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/odb_loose.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/odb_mempack.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/odb_pack.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/offmap.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/oid.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/oid.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/oidarray.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/oidarray.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/oidmap.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/openssl_stream.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/openssl_stream.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/pack-objects.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/pack-objects.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/pack.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/pack.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/patch.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/patch.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/patch_generate.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/patch_generate.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/patch_parse.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/patch_parse.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/path.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/path.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/pathspec.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/pathspec.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/pool.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/pool.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/posix.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/posix.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/pqueue.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/pqueue.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/proxy.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/proxy.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/push.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/push.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/rebase.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/refdb.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/refdb.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/refdb_fs.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/refdb_fs.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/reflog.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/reflog.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/refs.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/refs.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/refspec.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/refspec.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/remote.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/remote.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/repo_template.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/repository.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/repository.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/reset.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/revert.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/revparse.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/revwalk.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/revwalk.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/settings.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/sha1_lookup.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/sha1_lookup.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/signature.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/signature.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/socket_stream.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/socket_stream.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/sortedcache.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/sortedcache.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/stash.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/status.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/status.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/stransport_stream.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/stransport_stream.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/stream.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/strmap.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/strmap.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/strnlen.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/submodule.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/submodule.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/sysdir.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/sysdir.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/tag.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/tag.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/thread-utils.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/thread-utils.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/tls_stream.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/tls_stream.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/trace.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/trace.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/transaction.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/transaction.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/transport.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/transports/auth.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/transports/auth.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/transports/auth_negotiate.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/transports/auth_negotiate.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/transports/cred.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/transports/cred.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/transports/cred_helpers.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/transports/git.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/transports/http.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/transports/local.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/transports/smart.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/transports/smart.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/transports/smart_pkt.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/transports/smart_protocol.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/transports/ssh.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/transports/ssh.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/transports/winhttp.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/tree-cache.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/tree-cache.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/tree.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/tree.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/tsort.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/userdiff.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/util.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/util.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/varint.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/varint.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/vector.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/vector.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/xdiff/xdiff.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/xdiff/xdiffi.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/xdiff/xdiffi.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/xdiff/xemit.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/xdiff/xemit.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/xdiff/xhistogram.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/xdiff/xinclude.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/xdiff/xmacros.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/xdiff/xmerge.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/xdiff/xpatience.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/xdiff/xprepare.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/xdiff/xprepare.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/xdiff/xtypes.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/xdiff/xutils.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/xdiff/xutils.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/zstream.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/zstream.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/unix/map.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "src/unix/posix.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/unix/pthread.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/unix/realpath.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/adler32.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/crc32.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/crc32.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/deflate.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/deflate.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/infback.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/inffast.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/inffast.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/inffixed.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/inflate.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/inflate.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/inftrees.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/inftrees.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/trees.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/trees.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/zconf.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/zlib.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/zutil.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "deps/zlib/zutil.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "deps/http-parser/http_parser.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "deps/http-parser/http_parser.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "src/hash/hash_generic.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                }
+              ],
+              "artifacts": [
+                {
+                  "path": "libgit2.a"
+                }
+              ],
+              "nameOnDisk": "libgit2.a",
+              "sourceGroups": [
+                {
+                  "sourceIndexes": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    80,
+                    82,
+                    83,
+                    85,
+                    87,
+                    89,
+                    90,
+                    92,
+                    94,
+                    96,
+                    98,
+                    100,
+                    102,
+                    104,
+                    105,
+                    107,
+                    110,
+                    112,
+                    114,
+                    115,
+                    117,
+                    120,
+                    123,
+                    126,
+                    129,
+                    131,
+                    133,
+                    135,
+                    137,
+                    141,
+                    143,
+                    146,
+                    148,
+                    150,
+                    152,
+                    154,
+                    156,
+                    158,
+                    161,
+                    164,
+                    166,
+                    168,
+                    170,
+                    172,
+                    173,
+                    174,
+                    176,
+                    178,
+                    181,
+                    183,
+                    185,
+                    187,
+                    189,
+                    192,
+                    196,
+                    198,
+                    200,
+                    201,
+                    203,
+                    205,
+                    207,
+                    209,
+                    211,
+                    213,
+                    215,
+                    217,
+                    219,
+                    221,
+                    223,
+                    225,
+                    227,
+                    230,
+                    232,
+                    234,
+                    236,
+                    238,
+                    240,
+                    241,
+                    243,
+                    248,
+                    251,
+                    253,
+                    255,
+                    257,
+                    260,
+                    262,
+                    263,
+                    265,
+                    266,
+                    268,
+                    270,
+                    272,
+                    274,
+                    276,
+                    278,
+                    280,
+                    283,
+                    285,
+                    287,
+                    293,
+                    297,
+                    300,
+                    302,
+                    304,
+                    306,
+                    308,
+                    310,
+                    311,
+                    313,
+                    315,
+                    317,
+                    318,
+                    322,
+                    323,
+                    325,
+                    327,
+                    329,
+                    330,
+                    334,
+                    336,
+                    339,
+                    340,
+                    342,
+                    344,
+                    346,
+                    347,
+                    348,
+                    350,
+                    352
+                  ],
+                  "name": "Header Files"
+                },
+                {
+                  "sourceIndexes": [
+                    79,
+                    81,
+                    84,
+                    86,
+                    88,
+                    91,
+                    93,
+                    95,
+                    97,
+                    99,
+                    101,
+                    103,
+                    106,
+                    108,
+                    109,
+                    111,
+                    113,
+                    116,
+                    118,
+                    119,
+                    121,
+                    122,
+                    124,
+                    125,
+                    127,
+                    128,
+                    130,
+                    132,
+                    134,
+                    136,
+                    138,
+                    139,
+                    140,
+                    142,
+                    144,
+                    145,
+                    147,
+                    149,
+                    151,
+                    153,
+                    155,
+                    157,
+                    159,
+                    160,
+                    162,
+                    163,
+                    165,
+                    167,
+                    169,
+                    171,
+                    175,
+                    177,
+                    179,
+                    180,
+                    182,
+                    184,
+                    186,
+                    188,
+                    190,
+                    191,
+                    193,
+                    194,
+                    195,
+                    197,
+                    199,
+                    202,
+                    204,
+                    206,
+                    208,
+                    210,
+                    212,
+                    214,
+                    216,
+                    218,
+                    220,
+                    222,
+                    224,
+                    226,
+                    228,
+                    229,
+                    231,
+                    233,
+                    235,
+                    237,
+                    239,
+                    242,
+                    244,
+                    245,
+                    246,
+                    247,
+                    249,
+                    250,
+                    252,
+                    254,
+                    256,
+                    258,
+                    259,
+                    261,
+                    264,
+                    267,
+                    269,
+                    271,
+                    273,
+                    275,
+                    277,
+                    279,
+                    281,
+                    282,
+                    284,
+                    286,
+                    288,
+                    289,
+                    290,
+                    291,
+                    292,
+                    294,
+                    295,
+                    296,
+                    298,
+                    299,
+                    301,
+                    303,
+                    305,
+                    307,
+                    309,
+                    312,
+                    314,
+                    316,
+                    319,
+                    320,
+                    321,
+                    324,
+                    326,
+                    328,
+                    331,
+                    332,
+                    333,
+                    335,
+                    337,
+                    338,
+                    341,
+                    343,
+                    345,
+                    349,
+                    351,
+                    353
+                  ],
+                  "name": "Source Files"
+                }
+              ],
+              "archive": {},
+              "directoryIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jsonFile": "cmakeFiles-v1-e800a0796b379a88be38.json",
+      "kind": "cmakeFiles",
+      "paths": {
+        "build": "/home/pi/Public/Criterion/build/subprojects/libgit2/__CMake_build",
+        "source": "/home/pi/Public/Criterion/subprojects/libgit2"
+      },
+      "inputs": [
+        {
+          "path": "CMakeLists.txt"
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeDetermineSystem.cmake",
+          "isExternal": true
+        },
+        {
+          "path": "/home/pi/Public/Criterion/build/subprojects/libgit2/CMakeMesonToolchainFile.cmake",
+          "isExternal": true
+        },
+        {
+          "path": "/home/pi/Public/Criterion/build/meson-private/data/preload.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeSystem.cmake.in",
+          "isExternal": true
+        },
+        {
+          "isGenerated": true,
+          "path": "/home/pi/Public/Criterion/build/subprojects/libgit2/__CMake_build/CMakeFiles/3.20.20210214-ge8f178a/CMakeSystem.cmake"
+        },
+        {
+          "path": "/home/pi/Public/Criterion/build/subprojects/libgit2/CMakeMesonToolchainFile.cmake",
+          "isExternal": true
+        },
+        {
+          "path": "/home/pi/Public/Criterion/build/meson-private/data/preload.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeNinjaFindMake.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeDetermineCCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeDetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeDetermineCompilerId.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeCompilerIdDetection.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/ADSP-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/ARMCC-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/ARMClang-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/AppleClang-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Borland-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Bruce-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Clang-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Compaq-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Cray-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Embarcadero-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Fujitsu-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/GHS-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/GNU-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/HP-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/IAR-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Intel-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/MSVC-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/NVHPC-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/NVIDIA-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/PGI-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/PathScale-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/SCO-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/SDCC-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/SunPro-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/TI-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Watcom-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/XL-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/XLClang-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/zOS-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeFindBinUtils.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/GNU-FindBinUtils.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeCCompiler.cmake.in",
+          "isExternal": true
+        },
+        {
+          "isGenerated": true,
+          "path": "/home/pi/Public/Criterion/build/subprojects/libgit2/__CMake_build/CMakeFiles/3.20.20210214-ge8f178a/CMakeCCompiler.cmake"
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeSystemSpecificInformation.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeGenericSystem.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeInitializeConfigs.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Platform/Linux.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Platform/UnixPaths.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeCInformation.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeLanguageInformation.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/GNU-C.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/GNU.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Platform/Linux-GNU-C.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Platform/Linux-GNU.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeTestCCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeTestCompilerCommon.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeDetermineCompilerABI.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeParseImplicitIncludeInfo.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeParseImplicitLinkInfo.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeParseLibraryArchitecture.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeTestCompilerCommon.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeDetermineCompileFeatures.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Internal/FeatureTesting.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeCCompiler.cmake.in",
+          "isExternal": true
+        },
+        {
+          "isGenerated": true,
+          "path": "/home/pi/Public/Criterion/build/subprojects/libgit2/__CMake_build/CMakeFiles/3.20.20210214-ge8f178a/CMakeCCompiler.cmake"
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CheckLibraryExists.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CheckFunctionExists.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CheckSymbolExists.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CheckStructHasMember.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Internal/CheckSourceCompiles.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CheckCXXSourceCompiles.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Internal/CheckSourceCompiles.cmake",
+          "isExternal": true
+        },
+        {
+          "path": "cmake/Modules/AddCFlagIfSupported.cmake"
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CheckCCompilerFlag.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Internal/CheckCompilerFlag.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Internal/CheckSourceCompiles.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/FindPkgConfig.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/FindPackageMessage.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeConfigurableFile.in",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CheckFunctionExists.c",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CheckFunctionExists.c",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CheckFunctionExists.c",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/FindThreads.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CheckLibraryExists.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CheckIncludeFile.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CheckIncludeFile.c.in",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CheckFunctionExists.c",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CheckFunctionExists.c",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/FindPackageMessage.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CheckFunctionExists.c",
+          "isExternal": true
+        },
+        {
+          "path": "libgit2.pc.in"
+        }
+      ]
+    }
+  ]
+}

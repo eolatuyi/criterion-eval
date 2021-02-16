@@ -1,0 +1,554 @@
+{
+  "objects": [
+    {
+      "jsonFile": "codemodel-v2-5fb90fa60855b35106fe.json",
+      "kind": "codemodel",
+      "paths": {
+        "build": "/home/pi/Public/Criterion/build/subprojects/nanopb/__CMake_build",
+        "source": "/home/pi/Public/Criterion/subprojects/nanopb"
+      },
+      "configurations": [
+        {
+          "directories": [
+            {
+              "build": ".",
+              "targetIndexes": [
+                0
+              ],
+              "source": ".",
+              "projectIndex": 0,
+              "minimumCMakeVersion": {
+                "string": "2.8.12"
+              },
+              "hasInstallRule": true
+            }
+          ],
+          "projects": [
+            {
+              "directoryIndexes": [
+                0
+              ],
+              "targetIndexes": [
+                0
+              ],
+              "name": "nanopb"
+            }
+          ],
+          "name": "",
+          "targets": [
+            {
+              "projectIndex": 0,
+              "type": "STATIC_LIBRARY",
+              "id": "protobuf-nanopb-static::@6890427a1f51a3e7e1df",
+              "install": {
+                "prefix": {
+                  "path": "/usr/local"
+                },
+                "destinations": [
+                  {
+                    "path": "lib"
+                  }
+                ]
+              },
+              "paths": {
+                "build": ".",
+                "source": "."
+              },
+              "compileGroups": [
+                {
+                  "compileCommandFragments": [
+                    {
+                      "fragment": "-DPB_ENABLE_MALLOC -fPIC"
+                    }
+                  ],
+                  "language": "C",
+                  "sourceIndexes": [
+                    2,
+                    4,
+                    6
+                  ]
+                }
+              ],
+              "jsonFile": "target-protobuf-nanopb-static-1657352e33b615212426.json",
+              "name": "protobuf-nanopb-static",
+              "sources": [
+                {
+                  "path": "pb.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "pb_common.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "pb_common.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "pb_encode.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "pb_encode.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                },
+                {
+                  "path": "pb_decode.h",
+                  "sourceGroupIndex": 0
+                },
+                {
+                  "path": "pb_decode.c",
+                  "sourceGroupIndex": 1,
+                  "compileGroupIndex": 0
+                }
+              ],
+              "artifacts": [
+                {
+                  "path": "libprotobuf-nanopb.a"
+                }
+              ],
+              "nameOnDisk": "libprotobuf-nanopb.a",
+              "sourceGroups": [
+                {
+                  "sourceIndexes": [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  "name": "Header Files"
+                },
+                {
+                  "sourceIndexes": [
+                    2,
+                    4,
+                    6
+                  ],
+                  "name": "Source Files"
+                }
+              ],
+              "archive": {},
+              "directoryIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jsonFile": "cmakeFiles-v1-61a327642475c7492faa.json",
+      "kind": "cmakeFiles",
+      "paths": {
+        "build": "/home/pi/Public/Criterion/build/subprojects/nanopb/__CMake_build",
+        "source": "/home/pi/Public/Criterion/subprojects/nanopb"
+      },
+      "inputs": [
+        {
+          "path": "CMakeLists.txt"
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeDetermineSystem.cmake",
+          "isExternal": true
+        },
+        {
+          "path": "/home/pi/Public/Criterion/build/subprojects/nanopb/CMakeMesonToolchainFile.cmake",
+          "isExternal": true
+        },
+        {
+          "path": "/home/pi/Public/Criterion/build/meson-private/data/preload.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeSystem.cmake.in",
+          "isExternal": true
+        },
+        {
+          "isGenerated": true,
+          "path": "/home/pi/Public/Criterion/build/subprojects/nanopb/__CMake_build/CMakeFiles/3.20.20210214-ge8f178a/CMakeSystem.cmake"
+        },
+        {
+          "path": "/home/pi/Public/Criterion/build/subprojects/nanopb/CMakeMesonToolchainFile.cmake",
+          "isExternal": true
+        },
+        {
+          "path": "/home/pi/Public/Criterion/build/meson-private/data/preload.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeNinjaFindMake.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeDetermineCCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeDetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeDetermineCompilerId.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeCompilerIdDetection.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/ADSP-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/ARMCC-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/ARMClang-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/AppleClang-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Borland-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Bruce-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Clang-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Compaq-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Cray-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Embarcadero-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Fujitsu-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/GHS-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/GNU-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/HP-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/IAR-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Intel-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/MSVC-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/NVHPC-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/NVIDIA-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/PGI-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/PathScale-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/SCO-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/SDCC-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/SunPro-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/TI-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/Watcom-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/XL-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/XLClang-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/zOS-C-DetermineCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeFindBinUtils.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/GNU-FindBinUtils.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeCCompiler.cmake.in",
+          "isExternal": true
+        },
+        {
+          "isGenerated": true,
+          "path": "/home/pi/Public/Criterion/build/subprojects/nanopb/__CMake_build/CMakeFiles/3.20.20210214-ge8f178a/CMakeCCompiler.cmake"
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeSystemSpecificInformation.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeGenericSystem.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeInitializeConfigs.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Platform/Linux.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Platform/UnixPaths.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeCInformation.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeLanguageInformation.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/GNU-C.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/GNU.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Platform/Linux-GNU-C.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Platform/Linux-GNU.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeTestCCompiler.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeTestCompilerCommon.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeDetermineCompilerABI.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeParseImplicitIncludeInfo.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeParseImplicitLinkInfo.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeParseLibraryArchitecture.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeTestCompilerCommon.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeDetermineCompileFeatures.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/Internal/FeatureTesting.cmake",
+          "isExternal": true
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/CMakeCCompiler.cmake.in",
+          "isExternal": true
+        },
+        {
+          "isGenerated": true,
+          "path": "/home/pi/Public/Criterion/build/subprojects/nanopb/__CMake_build/CMakeFiles/3.20.20210214-ge8f178a/CMakeCCompiler.cmake"
+        },
+        {
+          "isCMake": true,
+          "path": "/usr/local/share/cmake-3.20/Modules/GNUInstallDirs.cmake",
+          "isExternal": true
+        },
+        {
+          "path": "extra/nanopb-config-version.cmake.in"
+        }
+      ]
+    }
+  ]
+}

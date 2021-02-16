@@ -1,0 +1,13 @@
+prefix=/home/pi/Public/Criterion/build
+srcdir=/home/pi/Public/Criterion
+libdir=${prefix}/lib/arm-linux-gnueabihf
+includedir=${prefix}/include
+
+Name: criterion
+Description: A KISS, Cross platform unit testing framework for C and C++
+URL: https://snai.pe/git/criterion
+Version: 2.3.3
+Requires.private: libffi
+Libs: -L${prefix}/src -lcriterion
+Libs.private: -lanl -pthread -lpthread -lrt -lm -L${prefix}/subprojects/nanopb -lcm_protobuf_nanopb_static -L${prefix}/subprojects/nanomsg -lcm_nanomsg -L${prefix}/subprojects/libgit2 -lcm_git2
+Cflags: -I${prefix}/src -I${srcdir}/src -I${prefix}/dependencies/debugbreak -I${srcdir}/dependencies/debugbreak -I${prefix}/dependencies/klib -I${srcdir}/dependencies/klib -I${prefix}/dependencies/valgrind/include -I${srcdir}/dependencies/valgrind/include -I${prefix}/include -I${srcdir}/include -I${prefix}/subprojects/boxfort/include -I${srcdir}/subprojects/boxfort/include -I${prefix}/subprojects/boxfort/src -I${srcdir}/subprojects/boxfort/src -I${prefix}/subprojects/libgit2/src -I${srcdir}/subprojects/libgit2/src -I${prefix}/subprojects/libgit2/include -I${srcdir}/subprojects/libgit2/include -I${prefix}/subprojects/libgit2/deps/http-parser -I${srcdir}/subprojects/libgit2/deps/http-parser -I${prefix}/subprojects/libgit2/deps/zlib -I${srcdir}/subprojects/libgit2/deps/zlib -I${prefix}/subprojects/libgit2/__CMake_build -I${srcdir}/subprojects/libgit2/__CMake_build -I${prefix}/subprojects/libgit2/. -I${srcdir}/subprojects/libgit2/. -I${prefix}/subprojects/nanomsg/__CMake_build -I${srcdir}/subprojects/nanomsg/__CMake_build -I${prefix}/subprojects/nanomsg/. -I${srcdir}/subprojects/nanomsg/. -I${prefix}/subprojects/nanopb/__CMake_build -I${srcdir}/subprojects/nanopb/__CMake_build -I${prefix}/subprojects/nanopb/. -I${srcdir}/subprojects/nanopb/. -I${prefix}/subprojects/nanopb -I${srcdir}/subprojects/nanopb -I${prefix}/subprojects/nanomsg -I${srcdir}/subprojects/nanomsg -I${prefix}/subprojects/libgit2 -I${srcdir}/subprojects/libgit2

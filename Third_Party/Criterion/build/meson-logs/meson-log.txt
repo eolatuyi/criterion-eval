@@ -1,0 +1,1904 @@
+Build started at 2021-02-15T01:36:49.886168
+Main binary: /usr/bin/python3
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 0.56.2
+Source dir: /home/pi/Public/Criterion
+Build dir: /home/pi/Public/Criterion/build
+Build type: native build
+Project name: criterion
+Project version: 2.3.3
+None of 'CC' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: cc /home/pi/Public/Criterion/build/meson-private/sanitycheckc.c -o /home/pi/Public/Criterion/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/pi/Public/Criterion/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 6.3.0 "cc (Raspbian 6.3.0-18+rpi1+deb9u1) 6.3.0 20170516")
+C linker for the host machine: cc ld.bfd 2.28
+None of 'AR' are defined in the environment, not changing global flags.
+None of 'CC' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: cc /home/pi/Public/Criterion/build/meson-private/sanitycheckc.c -o /home/pi/Public/Criterion/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/pi/Public/Criterion/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 6.3.0 "cc (Raspbian 6.3.0-18+rpi1+deb9u1) 6.3.0 20170516")
+C linker for the build machine: cc ld.bfd 2.28
+None of 'AR' are defined in the environment, not changing global flags.
+Build machine cpu family: arm
+Build machine cpu: armv7l
+Host machine cpu family: arm
+Host machine cpu: armv7l
+Target machine cpu family: arm
+Target machine cpu: armv7l
+Program python3 found: YES (/usr/bin/python3)
+Program git found: YES (/usr/bin/git)
+Running command: /home/pi/Public/Criterion/ci/isdir.py .git
+--- stdout ---
+
+--- stderr ---
+
+
+Running command: /usr/bin/git describe --dirty --tags
+--- stdout ---
+v2.3.3-122-g4cf886a
+
+--- stderr ---
+
+
+Running command: /usr/bin/git rev-parse --abbrev-ref HEAD
+--- stdout ---
+bleeding
+
+--- stderr ---
+
+
+None of 'CXX' are defined in the environment, not changing global flags.
+None of 'CXXFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: c++ /home/pi/Public/Criterion/build/meson-private/sanitycheckcpp.cc -o /home/pi/Public/Criterion/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/pi/Public/Criterion/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: c++ (gcc 6.3.0 "c++ (Raspbian 6.3.0-18+rpi1+deb9u1) 6.3.0 20170516")
+C++ linker for the build machine: c++ ld.bfd 2.28
+None of 'CXX' are defined in the environment, not changing global flags.
+None of 'CXXFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: c++ /home/pi/Public/Criterion/build/meson-private/sanitycheckcpp.cc -o /home/pi/Public/Criterion/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/pi/Public/Criterion/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: c++ (gcc 6.3.0 "c++ (Raspbian 6.3.0-18+rpi1+deb9u1) 6.3.0 20170516")
+C++ linker for the host machine: c++ ld.bfd 2.28
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpo7xne5_w
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpo7xne5_w/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpo7xne5_w/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wunused-parameter -Wno-unused-parameter 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmp9nztauwx
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmp9nztauwx/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmp9nztauwx/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wunused-value -Wno-unused-value 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-value: YES 
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpbofneb76
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpbofneb76/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpbofneb76/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fvisibility=hidden 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmp6zv3n1d6
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmp6zv3n1d6/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmp6zv3n1d6/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 /SAFESEH:NO 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: /SAFESEH:NO: No such file or directory
+
+Compiler for C supports arguments /SAFESEH:NO: NO 
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmptjq9xnmx
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmptjq9xnmx/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmptjq9xnmx/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 /source-charset:utf-8 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: /source-charset:utf-8: No such file or directory
+
+Compiler for C supports arguments /source-charset:utf-8: NO 
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpjn8hg6_u
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpjn8hg6_u/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpjn8hg6_u/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #define clock_gettime meson_disable_define_of_clock_gettime
+        
+#define _GNU_SOURCE
+
+        #include <limits.h>
+        #undef clock_gettime
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char clock_gettime (void);
+        
+        #if defined __stub_clock_gettime || defined __stub___clock_gettime
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return clock_gettime ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "clock_gettime" : YES 
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpq1l2aibe
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpq1l2aibe/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpq1l2aibe/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #define fopencookie meson_disable_define_of_fopencookie
+        
+#define _GNU_SOURCE
+
+        #include <limits.h>
+        #undef fopencookie
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char fopencookie (void);
+        
+        #if defined __stub_fopencookie || defined __stub___fopencookie
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return fopencookie ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "fopencookie" : YES 
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpma5merkt
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpma5merkt/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpma5merkt/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #define funopen meson_disable_define_of_funopen
+        
+#define _GNU_SOURCE
+
+        #include <limits.h>
+        #undef funopen
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char funopen (void);
+        
+        #if defined __stub_funopen || defined __stub___funopen
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return funopen ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /tmp/ccFLv5fr.o: In function `main':
+testfile.c:(.text+0x8): undefined reference to `funopen'
+collect2: error: ld returned 1 exit status
+
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpney_0zpm
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpney_0zpm/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpney_0zpm/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+#define _GNU_SOURCE
+
+        int main(void) {
+
+        /* With some toolchains (MSYS2/mingw for example) the compiler
+         * provides various builtins which are not really implemented and
+         * fall back to the stdlib where they aren't provided and fail at
+         * build/link time. In case the user provides a header, including
+         * the header didn't lead to the function being defined, and the
+         * function we are checking isn't a builtin itself we assume the
+         * builtin is not functional and we just error out. */
+        #if !1 && !defined(funopen) && !0
+            #error "No definition for __builtin_funopen found in the prefix"
+        #endif
+
+        #ifdef __has_builtin
+            #if !__has_builtin(__builtin_funopen)
+                #error "__builtin_funopen not found"
+            #endif
+        #elif ! defined(funopen)
+            __builtin_funopen;
+        #endif
+        return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/pi/Public/Criterion/build/meson-private/tmpney_0zpm/testfile.c: In function 'main':
+/home/pi/Public/Criterion/build/meson-private/tmpney_0zpm/testfile.c:22:13: error: '__builtin_funopen' undeclared (first use in this function)
+             __builtin_funopen;
+             ^~~~~~~~~~~~~~~~~
+/home/pi/Public/Criterion/build/meson-private/tmpney_0zpm/testfile.c:22:13: note: each undeclared identifier is reported only once for each function it appears in
+
+Checking for function "funopen" : NO 
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmp88e5f1rx
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmp88e5f1rx/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmp88e5f1rx/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #define getcwd meson_disable_define_of_getcwd
+        
+#define _GNU_SOURCE
+
+        #include <limits.h>
+        #undef getcwd
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char getcwd (void);
+        
+        #if defined __stub_getcwd || defined __stub___getcwd
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return getcwd ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "getcwd" : YES 
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmp_pctc8fh
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmp_pctc8fh/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmp_pctc8fh/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #define isatty meson_disable_define_of_isatty
+        
+#define _GNU_SOURCE
+
+        #include <limits.h>
+        #undef isatty
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char isatty (void);
+        
+        #if defined __stub_isatty || defined __stub___isatty
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return isatty ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "isatty" : YES 
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmplu0aj8gv
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmplu0aj8gv/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmplu0aj8gv/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #define nl_langinfo meson_disable_define_of_nl_langinfo
+        
+#define _GNU_SOURCE
+
+        #include <limits.h>
+        #undef nl_langinfo
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char nl_langinfo (void);
+        
+        #if defined __stub_nl_langinfo || defined __stub___nl_langinfo
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return nl_langinfo ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "nl_langinfo" : YES 
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpgu64hrz6
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpgu64hrz6/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpgu64hrz6/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #define open_memstream meson_disable_define_of_open_memstream
+        
+#define _GNU_SOURCE
+
+        #include <limits.h>
+        #undef open_memstream
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char open_memstream (void);
+        
+        #if defined __stub_open_memstream || defined __stub___open_memstream
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return open_memstream ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "open_memstream" : YES 
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpfzr196_g
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpfzr196_g/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpfzr196_g/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #define strtok_r meson_disable_define_of_strtok_r
+        
+#define _GNU_SOURCE
+
+        #include <limits.h>
+        #undef strtok_r
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char strtok_r (void);
+        
+        #if defined __stub_strtok_r || defined __stub___strtok_r
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return strtok_r ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "strtok_r" : YES 
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpzv6bryn2
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpzv6bryn2/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpzv6bryn2/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #define strtok_s meson_disable_define_of_strtok_s
+        
+#define _GNU_SOURCE
+
+        #include <limits.h>
+        #undef strtok_s
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char strtok_s (void);
+        
+        #if defined __stub_strtok_s || defined __stub___strtok_s
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return strtok_s ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /tmp/ccgaGTWP.o: In function `main':
+testfile.c:(.text+0x8): undefined reference to `strtok_s'
+collect2: error: ld returned 1 exit status
+
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmp4bongb_e
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmp4bongb_e/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmp4bongb_e/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+#define _GNU_SOURCE
+
+        int main(void) {
+
+        /* With some toolchains (MSYS2/mingw for example) the compiler
+         * provides various builtins which are not really implemented and
+         * fall back to the stdlib where they aren't provided and fail at
+         * build/link time. In case the user provides a header, including
+         * the header didn't lead to the function being defined, and the
+         * function we are checking isn't a builtin itself we assume the
+         * builtin is not functional and we just error out. */
+        #if !1 && !defined(strtok_s) && !0
+            #error "No definition for __builtin_strtok_s found in the prefix"
+        #endif
+
+        #ifdef __has_builtin
+            #if !__has_builtin(__builtin_strtok_s)
+                #error "__builtin_strtok_s not found"
+            #endif
+        #elif ! defined(strtok_s)
+            __builtin_strtok_s;
+        #endif
+        return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/pi/Public/Criterion/build/meson-private/tmp4bongb_e/testfile.c: In function 'main':
+/home/pi/Public/Criterion/build/meson-private/tmp4bongb_e/testfile.c:22:13: error: '__builtin_strtok_s' undeclared (first use in this function)
+             __builtin_strtok_s;
+             ^~~~~~~~~~~~~~~~~~
+/home/pi/Public/Criterion/build/meson-private/tmp4bongb_e/testfile.c:22:13: note: each undeclared identifier is reported only once for each function it appears in
+
+Checking for function "strtok_s" : NO 
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpriyd41jb
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpriyd41jb/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpriyd41jb/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+#define _GNU_SOURCE
+
+        #include <time.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef CLOCK_MONOTONIC_RAW
+                CLOCK_MONOTONIC_RAW;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <time.h> has symbol "CLOCK_MONOTONIC_RAW" : YES 
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpbm69t64e
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpbm69t64e/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpbm69t64e/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #define GetCurrentDirectory meson_disable_define_of_GetCurrentDirectory
+        
+#define _GNU_SOURCE
+
+        #include <limits.h>
+        #undef GetCurrentDirectory
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char GetCurrentDirectory (void);
+        
+        #if defined __stub_GetCurrentDirectory || defined __stub___GetCurrentDirectory
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return GetCurrentDirectory ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /tmp/cc9Wg8fg.o: In function `main':
+testfile.c:(.text+0x8): undefined reference to `GetCurrentDirectory'
+collect2: error: ld returned 1 exit status
+
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmp5s6ur7u5
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmp5s6ur7u5/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmp5s6ur7u5/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+#define _GNU_SOURCE
+
+        int main(void) {
+
+        /* With some toolchains (MSYS2/mingw for example) the compiler
+         * provides various builtins which are not really implemented and
+         * fall back to the stdlib where they aren't provided and fail at
+         * build/link time. In case the user provides a header, including
+         * the header didn't lead to the function being defined, and the
+         * function we are checking isn't a builtin itself we assume the
+         * builtin is not functional and we just error out. */
+        #if !1 && !defined(GetCurrentDirectory) && !0
+            #error "No definition for __builtin_GetCurrentDirectory found in the prefix"
+        #endif
+
+        #ifdef __has_builtin
+            #if !__has_builtin(__builtin_GetCurrentDirectory)
+                #error "__builtin_GetCurrentDirectory not found"
+            #endif
+        #elif ! defined(GetCurrentDirectory)
+            __builtin_GetCurrentDirectory;
+        #endif
+        return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/pi/Public/Criterion/build/meson-private/tmp5s6ur7u5/testfile.c: In function 'main':
+/home/pi/Public/Criterion/build/meson-private/tmp5s6ur7u5/testfile.c:22:13: error: '__builtin_GetCurrentDirectory' undeclared (first use in this function)
+             __builtin_GetCurrentDirectory;
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/pi/Public/Criterion/build/meson-private/tmp5s6ur7u5/testfile.c:22:13: note: each undeclared identifier is reported only once for each function it appears in
+
+Checking for function "GetCurrentDirectory" : NO 
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmp3y72aacg
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmp3y72aacg/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmp3y72aacg/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #define PathIsRelative meson_disable_define_of_PathIsRelative
+        
+#define _GNU_SOURCE
+
+        #include <limits.h>
+        #undef PathIsRelative
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char PathIsRelative (void);
+        
+        #if defined __stub_PathIsRelative || defined __stub___PathIsRelative
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return PathIsRelative ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /tmp/ccCwbfSr.o: In function `main':
+testfile.c:(.text+0x8): undefined reference to `PathIsRelative'
+collect2: error: ld returned 1 exit status
+
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmp8byxqtxh
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmp8byxqtxh/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmp8byxqtxh/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+#define _GNU_SOURCE
+
+        int main(void) {
+
+        /* With some toolchains (MSYS2/mingw for example) the compiler
+         * provides various builtins which are not really implemented and
+         * fall back to the stdlib where they aren't provided and fail at
+         * build/link time. In case the user provides a header, including
+         * the header didn't lead to the function being defined, and the
+         * function we are checking isn't a builtin itself we assume the
+         * builtin is not functional and we just error out. */
+        #if !1 && !defined(PathIsRelative) && !0
+            #error "No definition for __builtin_PathIsRelative found in the prefix"
+        #endif
+
+        #ifdef __has_builtin
+            #if !__has_builtin(__builtin_PathIsRelative)
+                #error "__builtin_PathIsRelative not found"
+            #endif
+        #elif ! defined(PathIsRelative)
+            __builtin_PathIsRelative;
+        #endif
+        return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/pi/Public/Criterion/build/meson-private/tmp8byxqtxh/testfile.c: In function 'main':
+/home/pi/Public/Criterion/build/meson-private/tmp8byxqtxh/testfile.c:22:13: error: '__builtin_PathIsRelative' undeclared (first use in this function)
+             __builtin_PathIsRelative;
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/pi/Public/Criterion/build/meson-private/tmp8byxqtxh/testfile.c:22:13: note: each undeclared identifier is reported only once for each function it appears in
+
+Checking for function "PathIsRelative" : NO 
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpemdb1am9
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpemdb1am9/testfile.c -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=c11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("synchapi.h")
+          #error "Header 'synchapi.h' could not be found"
+         #endif
+        #else
+         #include <synchapi.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/pi/Public/Criterion/build/meson-private/tmpemdb1am9/testfile.c:4:12: error: #error "Header 'synchapi.h' could not be found"
+           #error "Header 'synchapi.h' could not be found"
+            ^~~~~
+
+Has header "synchapi.h" : NO 
+Program gettext found: YES (/usr/bin/gettext)
+WARNING: Gettext not found, all translation targets will be ignored.
+Run-time dependency threads found: YES
+Pkg-config binary for MachineChoice.HOST is not cached.
+None of 'PKG_CONFIG' are defined in the environment, not changing global flags.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: /usr/bin/pkg-config (0.29)
+Determining dependency 'nanomsg' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion nanomsg` -> 1
+
+CMake binary for MachineChoice.HOST is not cached
+None of 'CMAKE' are defined in the environment, not changing global flags.
+CMake binary missing from cross or native file, or env var undefined.
+Trying a default CMake fallback at cmake
+Found CMake: /usr/local/bin/cmake (3.20.20210214)
+None of 'CMAKE_PREFIX_PATH' are defined in the environment, not changing global flags.
+Extracting basic cmake information
+Try CMake generator: auto
+Calling CMake (['/usr/local/bin/cmake']) in /home/pi/Public/Criterion/build/meson-private/cmake_nanomsg with:
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-DCMAKE_TOOLCHAIN_FILE=/home/pi/Public/Criterion/build/meson-private/cmake_nanomsg/CMakeMesonToolchainFile.cmake"
+  - "."
+  -- Module search paths:    ['/', '/opt', '/usr', '/usr/local']
+  -- CMake root:             /usr/local/share/cmake-3.20
+  -- CMake architectures:    ['arm-linux-gnueabihf']
+  -- CMake lib search paths: ['lib', 'lib32', 'lib64', 'libx32', 'share', 'lib/arm-linux-gnueabihf']
+Preliminary CMake check failed. Aborting.
+Run-time dependency nanomsg found: NO (tried pkgconfig and cmake)
+
+Executing subproject nanomsg method cmake 
+
+CMake binary for MachineChoice.BUILD is not cached
+None of 'CMAKE' are defined in the environment, not changing global flags.
+CMake binary missing from cross or native file, or env var undefined.
+Trying a default CMake fallback at cmake
+Found CMake: /usr/local/bin/cmake (3.20.20210214)
+None of 'CMAKE_PREFIX_PATH' are defined in the environment, not changing global flags.
+
+Configuring the build directory with CMake version 3.20.20210214
+Running CMake with: -G Ninja -DCMAKE_INSTALL_PREFIX=/usr/local -DNN_TESTS=OFF -DNN_TOOLS=OFF -DNN_STATIC_LIB=ON -DBUILD_SHARED_LIBS=OFF -DCMAKE_POSITION_INDEPENDENT_CODE=ON
+  - build directory:          /home/pi/Public/Criterion/build/subprojects/nanomsg/__CMake_build
+  - source directory:         /home/pi/Public/Criterion/subprojects/nanomsg
+  - toolchain file:           /home/pi/Public/Criterion/build/subprojects/nanomsg/CMakeMesonToolchainFile.cmake
+  - preload file:             /home/pi/Public/Criterion/build/meson-private/data/preload.cmake
+  - trace args:               --trace-expand --trace-format=json-v1 --no-warn-unused-cli --trace-redirect=cmake_trace.txt
+  - disabled policy warnings: [CMP0025, CMP0047, CMP0056, CMP0060, CMP0065, CMP0066, CMP0067, CMP0082, CMP0089, CMP0102]
+
+Calling CMake (['/usr/local/bin/cmake']) in /home/pi/Public/Criterion/build/subprojects/nanomsg/__CMake_build with:
+  - "-G"
+  - "Ninja"
+  - "-DCMAKE_INSTALL_PREFIX=/usr/local"
+  - "-DNN_TESTS=OFF"
+  - "-DNN_TOOLS=OFF"
+  - "-DNN_STATIC_LIB=ON"
+  - "-DBUILD_SHARED_LIBS=OFF"
+  - "-DCMAKE_POSITION_INDEPENDENT_CODE=ON"
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-DCMAKE_POLICY_WARNING_CMP0025=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0047=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0056=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0060=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0065=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0066=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0067=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0082=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0089=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0102=OFF"
+  - "-DCMAKE_TOOLCHAIN_FILE=/home/pi/Public/Criterion/build/subprojects/nanomsg/CMakeMesonToolchainFile.cmake"
+  - "-DMESON_PRELOAD_FILE=/home/pi/Public/Criterion/build/meson-private/data/preload.cmake"
+  - "/home/pi/Public/Criterion/subprojects/nanomsg"
+Running with expanded trace output on.
+Not searching for unused variables given on the command line.
+Trace will be written to cmake_trace.txt
+Trace will be written to cmake_trace.txt
+-- The C compiler identification is GNU 6.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detected nanomsg ABI v5 (v5.1.0)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- OS System is Linux
+-- OS Version is 4.9.41-v7+
+-- Looking for gethrtime
+-- Looking for gethrtime - not found
+-- Looking for socketpair
+-- Looking for socketpair - found
+-- Looking for eventfd
+-- Looking for eventfd - found
+-- Looking for pipe
+-- Looking for pipe - found
+-- Looking for pipe2
+-- Looking for pipe2 - found
+-- Looking for accept4
+-- Looking for accept4 - found
+-- Looking for epoll_create
+-- Looking for epoll_create - found
+-- Looking for kqueue
+-- Looking for kqueue - not found
+-- Looking for poll
+-- Looking for poll - found
+-- Looking for getaddrinfo_a in anl
+-- Looking for getaddrinfo_a in anl - found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Looking for sem_wait in rt
+-- Looking for sem_wait in rt - not found
+-- Looking for sem_wait in pthread
+-- Looking for sem_wait in pthread - found
+-- Looking for gethostbyname in nsl
+-- Looking for gethostbyname in nsl - found
+-- Looking for socket in socket
+-- Looking for socket in socket - not found
+-- Looking for CLOCK_MONOTONIC
+-- Looking for CLOCK_MONOTONIC - found
+-- Looking for atomic_cas_32
+-- Looking for atomic_cas_32 - not found
+-- Looking for AF_UNIX
+-- Looking for AF_UNIX - found
+-- Looking for backtrace_symbols_fd
+-- Looking for backtrace_symbols_fd - found
+-- Performing Test NN_HAVE_MSG_CONTROL
+-- Performing Test NN_HAVE_MSG_CONTROL - Success
+-- Performing Test NN_HAVE_GCC_ATOMIC_BUILTINS
+-- Performing Test NN_HAVE_GCC_ATOMIC_BUILTINS - Success
+CMake Warning at CMakeLists.txt:294 (message):
+  Could not find asciidoctor: skipping docs
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Public/Criterion/build/subprojects/nanomsg/__CMake_build
+
+CMake configuration: SUCCEEDED
+CMake TARGET:
+  -- name:      nanomsg
+  -- type:      NORMAL
+  -- imported:  False
+  -- properties: {
+      'INTERFACE_LINK_LIBRARIES': ['anl', 'rt', 'pthread', 'nsl', '-lpthread']
+      'LINK_LIBRARIES': ['anl', 'rt', 'pthread', 'nsl', '-lpthread']
+      'INTERFACE_COMPILE_DEFINITIONS': ['NN_STATIC_LIB']
+      'INCLUDE_DIRECTORIES': []
+      'INTERFACE_INCLUDE_DIRECTORIES': []
+      'RUNTIME_OUTPUT_DIRECTORY': ['/home/pi/Public/Criterion/build/subprojects/nanomsg/__CMake_build']
+      'LIBRARY_OUTPUT_DIRECTORY': ['/home/pi/Public/Criterion/build/subprojects/nanomsg/__CMake_build']
+      'ARCHIVE_OUTPUT_DIRECTORY': ['/home/pi/Public/Criterion/build/subprojects/nanomsg/__CMake_build']
+      'COMPILE_DEFINITIONS': ['NN_STATIC_LIB']
+     }
+  -- tline: CMake TRACE: /home/pi/Public/Criterion/subprojects/nanomsg/src/CMakeLists.txt:340 add_library(['nanomsg', 'STATIC', 'nn.h;inproc.h;ipc.h;tcp.h;ws.h;pair.h;pubsub.h;reqrep.h;pipeline.h;survey.h;bus.h;core/ep.h;core/ep.c;core/global.h;core/global.c;core/pipe.c;core/poll.c;core/sock.h;core/sock.c;core/sockbase.c;core/symbol.c;aio/ctx.h;aio/ctx.c;aio/fsm.h;aio/fsm.c;aio/pool.h;aio/pool.c;aio/timer.h;aio/timer.c;aio/timerset.h;aio/timerset.c;aio/usock.h;aio/usock.c;aio/worker.h;aio/worker.c;utils/alloc.h;utils/alloc.c;utils/atomic.h;utils/atomic.c;utils/attr.h;utils/chunk.h;utils/chunk.c;utils/chunkref.h;utils/chunkref.c;utils/clock.h;utils/clock.c;utils/closefd.h;utils/closefd.c;utils/cont.h;utils/efd.h;utils/efd.c;utils/err.h;utils/err.c;utils/fast.h;utils/fd.h;utils/hash.h;utils/hash.c;utils/list.h;utils/list.c;utils/msg.h;utils/msg.c;utils/condvar.h;utils/condvar.c;utils/mutex.h;utils/mutex.c;utils/once.h;utils/once.c;utils/queue.h;utils/queue.c;utils/random.h;utils/random.c;utils/sem.h;utils/sem.c;utils/sleep.h;utils/sleep.c;utils/strcasecmp.c;utils/strcasecmp.h;utils/strcasestr.c;utils/strcasestr.h;utils/strncasecmp.c;utils/strncasecmp.h;utils/thread.h;utils/thread.c;utils/wire.h;utils/wire.c;devices/device.h;devices/device.c;protocols/utils/dist.h;protocols/utils/dist.c;protocols/utils/excl.h;protocols/utils/excl.c;protocols/utils/fq.h;protocols/utils/fq.c;protocols/utils/lb.h;protocols/utils/lb.c;protocols/utils/priolist.h;protocols/utils/priolist.c;protocols/bus/bus.c;protocols/bus/xbus.h;protocols/bus/xbus.c;protocols/pipeline/push.c;protocols/pipeline/pull.c;protocols/pipeline/xpull.h;protocols/pipeline/xpull.c;protocols/pipeline/xpush.h;protocols/pipeline/xpush.c;protocols/pair/pair.c;protocols/pair/xpair.h;protocols/pair/xpair.c;protocols/pubsub/pub.c;protocols/pubsub/sub.c;protocols/pubsub/trie.h;protocols/pubsub/trie.c;protocols/pubsub/xpub.h;protocols/pubsub/xpub.c;protocols/pubsub/xsub.h;protocols/pubsub/xsub.c;protocols/reqrep/req.h;protocols/reqrep/req.c;protocols/reqrep/rep.h;protocols/reqrep/rep.c;protocols/reqrep/task.h;protocols/reqrep/task.c;protocols/reqrep/xrep.h;protocols/reqrep/xrep.c;protocols/reqrep/xreq.h;protocols/reqrep/xreq.c;protocols/survey/respondent.c;protocols/survey/surveyor.c;protocols/survey/xrespondent.h;protocols/survey/xrespondent.c;protocols/survey/xsurveyor.h;protocols/survey/xsurveyor.c;transports/utils/backoff.h;transports/utils/backoff.c;transports/utils/dns.h;transports/utils/dns.c;transports/utils/dns_getaddrinfo.h;transports/utils/dns_getaddrinfo.inc;transports/utils/dns_getaddrinfo_a.h;transports/utils/dns_getaddrinfo_a.inc;transports/utils/iface.h;transports/utils/iface.c;transports/utils/literal.h;transports/utils/literal.c;transports/utils/port.h;transports/utils/port.c;transports/utils/streamhdr.h;transports/utils/streamhdr.c;transports/utils/base64.h;transports/utils/base64.c;transports/inproc/binproc.h;transports/inproc/binproc.c;transports/inproc/cinproc.h;transports/inproc/cinproc.c;transports/inproc/inproc.c;transports/inproc/ins.h;transports/inproc/ins.c;transports/inproc/msgqueue.h;transports/inproc/msgqueue.c;transports/inproc/sinproc.h;transports/inproc/sinproc.c;transports/ipc/aipc.h;transports/ipc/aipc.c;transports/ipc/bipc.h;transports/ipc/bipc.c;transports/ipc/cipc.h;transports/ipc/cipc.c;transports/ipc/ipc.c;transports/ipc/sipc.h;transports/ipc/sipc.c;transports/tcp/atcp.h;transports/tcp/atcp.c;transports/tcp/btcp.h;transports/tcp/btcp.c;transports/tcp/ctcp.h;transports/tcp/ctcp.c;transports/tcp/stcp.h;transports/tcp/stcp.c;transports/tcp/tcp.c;transports/ws/aws.h;transports/ws/aws.c;transports/ws/bws.h;transports/ws/bws.c;transports/ws/cws.h;transports/ws/cws.c;transports/ws/sws.h;transports/ws/sws.c;transports/ws/ws.c;transports/ws/ws_handshake.h;transports/ws/ws_handshake.c;transports/ws/sha1.h;transports/ws/sha1.c;aio/usock_posix.h;aio/usock_posix.inc;aio/worker_posix.h;aio/worker_posix.inc;utils/thread_posix.h;utils/thread_posix.inc;aio/poller.h;aio/poller.c;aio/poller_epoll.h;aio/poller_epoll.inc;utils/efd_eventfd.h;utils/efd_eventfd.inc'])
+CMake project nanomsg has 2 build targets.
+
+Processing generated meson AST
+Build file: /home/pi/Public/Criterion/build/subprojects/nanomsg/meson.build
+
+Project name: nanomsg
+Project version: undefined
+C compiler for the host machine: cc (gcc 6.3.0 "cc (Raspbian 6.3.0-18+rpi1+deb9u1) 6.3.0 20170516")
+C linker for the host machine: cc ld.bfd 2.28
+C compiler for the build machine: cc (gcc 6.3.0 "cc (Raspbian 6.3.0-18+rpi1+deb9u1) 6.3.0 20170516")
+C linker for the build machine: cc ld.bfd 2.28
+Build targets in project: 2
+Subproject nanomsg finished.
+
+
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpuni9y1v7
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpuni9y1v7/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpuni9y1v7/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lanl -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library anl found: YES
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmp47u8gaj7
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmp47u8gaj7/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmp47u8gaj7/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lws2_32 -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -lws2_32
+collect2: error: ld returned 1 exit status
+
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpygm089gl
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpygm089gl/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpygm089gl/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+4
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpa6nkekp3
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpa6nkekp3/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpa6nkekp3/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/arm-linux-gnueabihf/6/
+programs: =/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/bin/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/bin/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/bin/
+libraries: =/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../:/lib/arm-linux-gnueabihf/6/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/6/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+
+Compiler stderr:
+ 
+Library ws2_32 found: NO
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpd31y6vte
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpd31y6vte/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpd31y6vte/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lmswsock -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -lmswsock
+collect2: error: ld returned 1 exit status
+
+Library mswsock found: NO
+CMake binary for MachineChoice.HOST is cached.
+None of 'CMAKE_PREFIX_PATH' are defined in the environment, not changing global flags.
+Preliminary CMake check failed. Aborting.
+Run-time dependency nanopb found: NO (tried cmake)
+
+Executing subproject nanopb method cmake 
+
+CMake binary for MachineChoice.BUILD is cached.
+None of 'CMAKE_PREFIX_PATH' are defined in the environment, not changing global flags.
+
+Configuring the build directory with CMake version 3.20.20210214
+Running CMake with: -G Ninja -DCMAKE_INSTALL_PREFIX=/usr/local -Dnanopb_BUILD_GENERATOR=OFF -DBUILD_SHARED_LIBS=OFF -DCMAKE_C_FLAGS=-DPB_ENABLE_MALLOC -DCMAKE_POSITION_INDEPENDENT_CODE=ON
+  - build directory:          /home/pi/Public/Criterion/build/subprojects/nanopb/__CMake_build
+  - source directory:         /home/pi/Public/Criterion/subprojects/nanopb
+  - toolchain file:           /home/pi/Public/Criterion/build/subprojects/nanopb/CMakeMesonToolchainFile.cmake
+  - preload file:             /home/pi/Public/Criterion/build/meson-private/data/preload.cmake
+  - trace args:               --trace-expand --trace-format=json-v1 --no-warn-unused-cli --trace-redirect=cmake_trace.txt
+  - disabled policy warnings: [CMP0025, CMP0047, CMP0056, CMP0060, CMP0065, CMP0066, CMP0067, CMP0082, CMP0089, CMP0102]
+
+Calling CMake (['/usr/local/bin/cmake']) in /home/pi/Public/Criterion/build/subprojects/nanopb/__CMake_build with:
+  - "-G"
+  - "Ninja"
+  - "-DCMAKE_INSTALL_PREFIX=/usr/local"
+  - "-Dnanopb_BUILD_GENERATOR=OFF"
+  - "-DBUILD_SHARED_LIBS=OFF"
+  - "-DCMAKE_C_FLAGS=-DPB_ENABLE_MALLOC"
+  - "-DCMAKE_POSITION_INDEPENDENT_CODE=ON"
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-DCMAKE_POLICY_WARNING_CMP0025=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0047=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0056=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0060=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0065=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0066=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0067=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0082=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0089=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0102=OFF"
+  - "-DCMAKE_TOOLCHAIN_FILE=/home/pi/Public/Criterion/build/subprojects/nanopb/CMakeMesonToolchainFile.cmake"
+  - "-DMESON_PRELOAD_FILE=/home/pi/Public/Criterion/build/meson-private/data/preload.cmake"
+  - "/home/pi/Public/Criterion/subprojects/nanopb"
+Running with expanded trace output on.
+Not searching for unused variables given on the command line.
+Trace will be written to cmake_trace.txt
+Trace will be written to cmake_trace.txt
+-- The C compiler identification is GNU 6.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Public/Criterion/build/subprojects/nanopb/__CMake_build
+
+CMake configuration: SUCCEEDED
+CMake TARGET:
+  -- name:      protobuf-nanopb-static
+  -- type:      NORMAL
+  -- imported:  False
+  -- properties: {
+      'INTERFACE_INCLUDE_DIRECTORIES': []
+      'INCLUDE_DIRECTORIES': []
+      'OUTPUT_NAME': ['protobuf-nanopb']
+     }
+  -- tline: CMake TRACE: /home/pi/Public/Criterion/subprojects/nanopb/CMakeLists.txt:90 add_library(['protobuf-nanopb-static', 'STATIC', 'pb.h', 'pb_common.h', 'pb_common.c', 'pb_encode.h', 'pb_encode.c', 'pb_decode.h', 'pb_decode.c'])
+CMake project nanopb has 1 build targets.
+
+Processing generated meson AST
+Build file: /home/pi/Public/Criterion/build/subprojects/nanopb/meson.build
+
+Project name: nanopb
+Project version: undefined
+C compiler for the host machine: cc (gcc 6.3.0 "cc (Raspbian 6.3.0-18+rpi1+deb9u1) 6.3.0 20170516")
+C linker for the host machine: cc ld.bfd 2.28
+C compiler for the build machine: cc (gcc 6.3.0 "cc (Raspbian 6.3.0-18+rpi1+deb9u1) 6.3.0 20170516")
+C linker for the build machine: cc ld.bfd 2.28
+Build targets in project: 3
+Subproject nanopb finished.
+
+
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libgit2' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libgit2` -> 1
+
+CMake binary for MachineChoice.HOST is cached.
+None of 'CMAKE_PREFIX_PATH' are defined in the environment, not changing global flags.
+Preliminary CMake check failed. Aborting.
+Run-time dependency libgit2 found: NO (tried pkgconfig and cmake)
+
+Executing subproject libgit2 method cmake 
+
+CMake binary for MachineChoice.BUILD is cached.
+None of 'CMAKE_PREFIX_PATH' are defined in the environment, not changing global flags.
+
+Configuring the build directory with CMake version 3.20.20210214
+Running CMake with: -G Ninja -DCMAKE_INSTALL_PREFIX=/usr/local -DBUILD_SHARED_LIBS=OFF -DBUILD_CLAR=OFF -DUSE_ICONV=OFF -DUSE_SSH=OFF -DUSE_GSSAPI=OFF -DUSE_OPENSSL=OFF -DVALGRIND=OFF -DCURL=OFF -DWINHTTP=OFF -DCMAKE_DISABLE_FIND_PACKAGE_HTTP_Parser=TRUE -DCMAKE_DISABLE_FIND_PACKAGE_ZLIB=TRUE -DCMAKE_DISABLE_FIND_PACKAGE_Iconv=TRUE -DCMAKE_DISABLE_FIND_PACKAGE_Security=TRUE -DCMAKE_POSITION_INDEPENDENT_CODE=ON
+  - build directory:          /home/pi/Public/Criterion/build/subprojects/libgit2/__CMake_build
+  - source directory:         /home/pi/Public/Criterion/subprojects/libgit2
+  - toolchain file:           /home/pi/Public/Criterion/build/subprojects/libgit2/CMakeMesonToolchainFile.cmake
+  - preload file:             /home/pi/Public/Criterion/build/meson-private/data/preload.cmake
+  - trace args:               --trace-expand --trace-format=json-v1 --no-warn-unused-cli --trace-redirect=cmake_trace.txt
+  - disabled policy warnings: [CMP0025, CMP0047, CMP0056, CMP0060, CMP0065, CMP0066, CMP0067, CMP0082, CMP0089, CMP0102]
+
+Calling CMake (['/usr/local/bin/cmake']) in /home/pi/Public/Criterion/build/subprojects/libgit2/__CMake_build with:
+  - "-G"
+  - "Ninja"
+  - "-DCMAKE_INSTALL_PREFIX=/usr/local"
+  - "-DBUILD_SHARED_LIBS=OFF"
+  - "-DBUILD_CLAR=OFF"
+  - "-DUSE_ICONV=OFF"
+  - "-DUSE_SSH=OFF"
+  - "-DUSE_GSSAPI=OFF"
+  - "-DUSE_OPENSSL=OFF"
+  - "-DVALGRIND=OFF"
+  - "-DCURL=OFF"
+  - "-DWINHTTP=OFF"
+  - "-DCMAKE_DISABLE_FIND_PACKAGE_HTTP_Parser=TRUE"
+  - "-DCMAKE_DISABLE_FIND_PACKAGE_ZLIB=TRUE"
+  - "-DCMAKE_DISABLE_FIND_PACKAGE_Iconv=TRUE"
+  - "-DCMAKE_DISABLE_FIND_PACKAGE_Security=TRUE"
+  - "-DCMAKE_POSITION_INDEPENDENT_CODE=ON"
+  - "--trace-expand"
+  - "--trace-format=json-v1"
+  - "--no-warn-unused-cli"
+  - "--trace-redirect=cmake_trace.txt"
+  - "-DCMAKE_POLICY_WARNING_CMP0025=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0047=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0056=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0060=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0065=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0066=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0067=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0082=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0089=OFF"
+  - "-DCMAKE_POLICY_WARNING_CMP0102=OFF"
+  - "-DCMAKE_TOOLCHAIN_FILE=/home/pi/Public/Criterion/build/subprojects/libgit2/CMakeMesonToolchainFile.cmake"
+  - "-DMESON_PRELOAD_FILE=/home/pi/Public/Criterion/build/meson-private/data/preload.cmake"
+  - "/home/pi/Public/Criterion/subprojects/libgit2"
+Running with expanded trace output on.
+Not searching for unused variables given on the command line.
+Trace will be written to cmake_trace.txt
+Trace will be written to cmake_trace.txt
+-- The C compiler identification is GNU 6.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+CMake Deprecation Warning at CMakeLists.txt:15 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29") 
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIM
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIM - Success
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC - Failed
+-- Performing Test HAVE_STRUCT_STAT_MTIME_NSEC
+-- Performing Test HAVE_STRUCT_STAT_MTIME_NSEC - Failed
+-- Performing Test HAVE_STRUCT_STAT_NSEC
+-- Performing Test HAVE_STRUCT_STAT_NSEC - Success
+-- http-parser was not found or is too old; using bundled 3rd-party sources.
+-- zlib was not found; using bundled 3rd-party sources.
+-- LIBSSH2 not found. Set CMAKE_PREFIX_PATH if it is installed outside of the default search path.
+-- Performing Test IS_WDOCUMENTATION_SUPPORTED
+-- Performing Test IS_WDOCUMENTATION_SUPPORTED - Failed
+-- Performing Test IS_WNO-MISSING-FIELD-INITIALIZERS_SUPPORTED
+-- Performing Test IS_WNO-MISSING-FIELD-INITIALIZERS_SUPPORTED - Success
+-- Performing Test IS_WSTRICT-ALIASING=2_SUPPORTED
+-- Performing Test IS_WSTRICT-ALIASING=2_SUPPORTED - Success
+-- Performing Test IS_WSTRICT-PROTOTYPES_SUPPORTED
+-- Performing Test IS_WSTRICT-PROTOTYPES_SUPPORTED - Success
+-- Performing Test IS_WDECLARATION-AFTER-STATEMENT_SUPPORTED
+-- Performing Test IS_WDECLARATION-AFTER-STATEMENT_SUPPORTED - Success
+-- Performing Test IS_WNO-UNUSED-CONST-VARIABLE_SUPPORTED
+-- Performing Test IS_WNO-UNUSED-CONST-VARIABLE_SUPPORTED - Success
+-- Performing Test IS_WNO-UNUSED-FUNCTION_SUPPORTED
+-- Performing Test IS_WNO-UNUSED-FUNCTION_SUPPORTED - Success
+-- Looking for regcomp_l
+-- Looking for regcomp_l - not found
+-- Looking for futimens
+-- Looking for futimens - found
+-- Looking for qsort_r
+-- Looking for qsort_r - found
+-- Looking for qsort_s
+-- Looking for qsort_s - not found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Public/Criterion/build/subprojects/libgit2/__CMake_build
+
+CMake configuration: SUCCEEDED
+CMake TARGET:
+  -- name:      git2
+  -- type:      NORMAL
+  -- imported:  False
+  -- properties: {
+      'INTERFACE_LINK_LIBRARIES': ['rt', '-lpthread']
+      'SOVERSION': ['25']
+      'LINK_LIBRARIES': ['rt', '-lpthread']
+      'VERSION': ['0.25.1']
+     }
+  -- tline: CMake TRACE: /home/pi/Public/Criterion/subprojects/libgit2/CMakeLists.txt:605 add_library(['git2', '/home/pi/Public/Criterion/subprojects/libgit2/include/git2.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/annotated_commit.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/attr.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/blame.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/blob.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/branch.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/buffer.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/checkout.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/cherrypick.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/clone.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/commit.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/common.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/config.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/cred_helpers.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/describe.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/diff.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/errors.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/filter.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/global.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/graph.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/ignore.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/index.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/indexer.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/inttypes.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/merge.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/message.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/net.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/notes.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/object.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/odb.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/odb_backend.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/oid.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/oidarray.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/pack.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/patch.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/pathspec.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/proxy.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/rebase.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/refdb.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/reflog.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/refs.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/refspec.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/remote.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/repository.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/reset.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/revert.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/revparse.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/revwalk.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/signature.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/stash.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/status.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/stdint.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/strarray.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/submodule.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/sys/commit.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/sys/config.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/sys/diff.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/sys/filter.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/sys/hashsig.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/sys/index.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/sys/mempack.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/sys/merge.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/sys/odb_backend.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/sys/openssl.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/sys/refdb_backend.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/sys/reflog.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/sys/refs.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/sys/remote.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/sys/repository.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/sys/stream.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/sys/time.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/sys/transport.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/tag.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/trace.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/transaction.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/transport.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/tree.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/types.h;/home/pi/Public/Criterion/subprojects/libgit2/include/git2/version.h', '/home/pi/Public/Criterion/subprojects/libgit2/src/annotated_commit.c;/home/pi/Public/Criterion/subprojects/libgit2/src/annotated_commit.h;/home/pi/Public/Criterion/subprojects/libgit2/src/apply.c;/home/pi/Public/Criterion/subprojects/libgit2/src/apply.h;/home/pi/Public/Criterion/subprojects/libgit2/src/array.h;/home/pi/Public/Criterion/subprojects/libgit2/src/attr.c;/home/pi/Public/Criterion/subprojects/libgit2/src/attr.h;/home/pi/Public/Criterion/subprojects/libgit2/src/attr_file.c;/home/pi/Public/Criterion/subprojects/libgit2/src/attr_file.h;/home/pi/Public/Criterion/subprojects/libgit2/src/attrcache.c;/home/pi/Public/Criterion/subprojects/libgit2/src/attrcache.h;/home/pi/Public/Criterion/subprojects/libgit2/src/bitvec.h;/home/pi/Public/Criterion/subprojects/libgit2/src/blame.c;/home/pi/Public/Criterion/subprojects/libgit2/src/blame.h;/home/pi/Public/Criterion/subprojects/libgit2/src/blame_git.c;/home/pi/Public/Criterion/subprojects/libgit2/src/blame_git.h;/home/pi/Public/Criterion/subprojects/libgit2/src/blob.c;/home/pi/Public/Criterion/subprojects/libgit2/src/blob.h;/home/pi/Public/Criterion/subprojects/libgit2/src/branch.c;/home/pi/Public/Criterion/subprojects/libgit2/src/branch.h;/home/pi/Public/Criterion/subprojects/libgit2/src/buf_text.c;/home/pi/Public/Criterion/subprojects/libgit2/src/buf_text.h;/home/pi/Public/Criterion/subprojects/libgit2/src/buffer.c;/home/pi/Public/Criterion/subprojects/libgit2/src/buffer.h;/home/pi/Public/Criterion/subprojects/libgit2/src/cache.c;/home/pi/Public/Criterion/subprojects/libgit2/src/cache.h;/home/pi/Public/Criterion/subprojects/libgit2/src/cc-compat.h;/home/pi/Public/Criterion/subprojects/libgit2/src/checkout.c;/home/pi/Public/Criterion/subprojects/libgit2/src/checkout.h;/home/pi/Public/Criterion/subprojects/libgit2/src/cherrypick.c;/home/pi/Public/Criterion/subprojects/libgit2/src/clone.c;/home/pi/Public/Criterion/subprojects/libgit2/src/clone.h;/home/pi/Public/Criterion/subprojects/libgit2/src/commit.c;/home/pi/Public/Criterion/subprojects/libgit2/src/commit.h;/home/pi/Public/Criterion/subprojects/libgit2/src/commit_list.c;/home/pi/Public/Criterion/subprojects/libgit2/src/commit_list.h;/home/pi/Public/Criterion/subprojects/libgit2/src/common.h;/home/pi/Public/Criterion/subprojects/libgit2/src/config.c;/home/pi/Public/Criterion/subprojects/libgit2/src/config.h;/home/pi/Public/Criterion/subprojects/libgit2/src/config_cache.c;/home/pi/Public/Criterion/subprojects/libgit2/src/config_file.c;/home/pi/Public/Criterion/subprojects/libgit2/src/config_file.h;/home/pi/Public/Criterion/subprojects/libgit2/src/crlf.c;/home/pi/Public/Criterion/subprojects/libgit2/src/curl_stream.c;/home/pi/Public/Criterion/subprojects/libgit2/src/curl_stream.h;/home/pi/Public/Criterion/subprojects/libgit2/src/date.c;/home/pi/Public/Criterion/subprojects/libgit2/src/delta.c;/home/pi/Public/Criterion/subprojects/libgit2/src/delta.h;/home/pi/Public/Criterion/subprojects/libgit2/src/describe.c;/home/pi/Public/Criterion/subprojects/libgit2/src/diff.c;/home/pi/Public/Criterion/subprojects/libgit2/src/diff.h;/home/pi/Public/Criterion/subprojects/libgit2/src/diff_driver.c;/home/pi/Public/Criterion/subprojects/libgit2/src/diff_driver.h;/home/pi/Public/Criterion/subprojects/libgit2/src/diff_file.c;/home/pi/Public/Criterion/subprojects/libgit2/src/diff_file.h;/home/pi/Public/Criterion/subprojects/libgit2/src/diff_generate.c;/home/pi/Public/Criterion/subprojects/libgit2/src/diff_generate.h;/home/pi/Public/Criterion/subprojects/libgit2/src/diff_parse.c;/home/pi/Public/Criterion/subprojects/libgit2/src/diff_parse.h;/home/pi/Public/Criterion/subprojects/libgit2/src/diff_print.c;/home/pi/Public/Criterion/subprojects/libgit2/src/diff_stats.c;/home/pi/Public/Criterion/subprojects/libgit2/src/diff_tform.c;/home/pi/Public/Criterion/subprojects/libgit2/src/diff_tform.h;/home/pi/Public/Criterion/subprojects/libgit2/src/diff_xdiff.c;/home/pi/Public/Criterion/subprojects/libgit2/src/diff_xdiff.h;/home/pi/Public/Criterion/subprojects/libgit2/src/errors.c;/home/pi/Public/Criterion/subprojects/libgit2/src/fetch.c;/home/pi/Public/Criterion/subprojects/libgit2/src/fetch.h;/home/pi/Public/Criterion/subprojects/libgit2/src/fetchhead.c;/home/pi/Public/Criterion/subprojects/libgit2/src/fetchhead.h;/home/pi/Public/Criterion/subprojects/libgit2/src/filebuf.c;/home/pi/Public/Criterion/subprojects/libgit2/src/filebuf.h;/home/pi/Public/Criterion/subprojects/libgit2/src/fileops.c;/home/pi/Public/Criterion/subprojects/libgit2/src/fileops.h;/home/pi/Public/Criterion/subprojects/libgit2/src/filter.c;/home/pi/Public/Criterion/subprojects/libgit2/src/filter.h;/home/pi/Public/Criterion/subprojects/libgit2/src/fnmatch.c;/home/pi/Public/Criterion/subprojects/libgit2/src/fnmatch.h;/home/pi/Public/Criterion/subprojects/libgit2/src/global.c;/home/pi/Public/Criterion/subprojects/libgit2/src/global.h;/home/pi/Public/Criterion/subprojects/libgit2/src/graph.c;/home/pi/Public/Criterion/subprojects/libgit2/src/hash.c;/home/pi/Public/Criterion/subprojects/libgit2/src/hash.h;/home/pi/Public/Criterion/subprojects/libgit2/src/hashsig.c;/home/pi/Public/Criterion/subprojects/libgit2/src/ident.c;/home/pi/Public/Criterion/subprojects/libgit2/src/idxmap.h;/home/pi/Public/Criterion/subprojects/libgit2/src/ignore.c;/home/pi/Public/Criterion/subprojects/libgit2/src/ignore.h;/home/pi/Public/Criterion/subprojects/libgit2/src/index.c;/home/pi/Public/Criterion/subprojects/libgit2/src/index.h;/home/pi/Public/Criterion/subprojects/libgit2/src/indexer.c;/home/pi/Public/Criterion/subprojects/libgit2/src/integer.h;/home/pi/Public/Criterion/subprojects/libgit2/src/iterator.c;/home/pi/Public/Criterion/subprojects/libgit2/src/iterator.h;/home/pi/Public/Criterion/subprojects/libgit2/src/khash.h;/home/pi/Public/Criterion/subprojects/libgit2/src/map.h;/home/pi/Public/Criterion/subprojects/libgit2/src/merge.c;/home/pi/Public/Criterion/subprojects/libgit2/src/merge.h;/home/pi/Public/Criterion/subprojects/libgit2/src/merge_driver.c;/home/pi/Public/Criterion/subprojects/libgit2/src/merge_driver.h;/home/pi/Public/Criterion/subprojects/libgit2/src/merge_file.c;/home/pi/Public/Criterion/subprojects/libgit2/src/message.c;/home/pi/Public/Criterion/subprojects/libgit2/src/message.h;/home/pi/Public/Criterion/subprojects/libgit2/src/mwindow.c;/home/pi/Public/Criterion/subprojects/libgit2/src/mwindow.h;/home/pi/Public/Criterion/subprojects/libgit2/src/netops.c;/home/pi/Public/Criterion/subprojects/libgit2/src/netops.h;/home/pi/Public/Criterion/subprojects/libgit2/src/notes.c;/home/pi/Public/Criterion/subprojects/libgit2/src/notes.h;/home/pi/Public/Criterion/subprojects/libgit2/src/object.c;/home/pi/Public/Criterion/subprojects/libgit2/src/object.h;/home/pi/Public/Criterion/subprojects/libgit2/src/object_api.c;/home/pi/Public/Criterion/subprojects/libgit2/src/odb.c;/home/pi/Public/Criterion/subprojects/libgit2/src/odb.h;/home/pi/Public/Criterion/subprojects/libgit2/src/odb_loose.c;/home/pi/Public/Criterion/subprojects/libgit2/src/odb_mempack.c;/home/pi/Public/Criterion/subprojects/libgit2/src/odb_pack.c;/home/pi/Public/Criterion/subprojects/libgit2/src/offmap.h;/home/pi/Public/Criterion/subprojects/libgit2/src/oid.c;/home/pi/Public/Criterion/subprojects/libgit2/src/oid.h;/home/pi/Public/Criterion/subprojects/libgit2/src/oidarray.c;/home/pi/Public/Criterion/subprojects/libgit2/src/oidarray.h;/home/pi/Public/Criterion/subprojects/libgit2/src/oidmap.h;/home/pi/Public/Criterion/subprojects/libgit2/src/openssl_stream.c;/home/pi/Public/Criterion/subprojects/libgit2/src/openssl_stream.h;/home/pi/Public/Criterion/subprojects/libgit2/src/pack-objects.c;/home/pi/Public/Criterion/subprojects/libgit2/src/pack-objects.h;/home/pi/Public/Criterion/subprojects/libgit2/src/pack.c;/home/pi/Public/Criterion/subprojects/libgit2/src/pack.h;/home/pi/Public/Criterion/subprojects/libgit2/src/patch.c;/home/pi/Public/Criterion/subprojects/libgit2/src/patch.h;/home/pi/Public/Criterion/subprojects/libgit2/src/patch_generate.c;/home/pi/Public/Criterion/subprojects/libgit2/src/patch_generate.h;/home/pi/Public/Criterion/subprojects/libgit2/src/patch_parse.c;/home/pi/Public/Criterion/subprojects/libgit2/src/patch_parse.h;/home/pi/Public/Criterion/subprojects/libgit2/src/path.c;/home/pi/Public/Criterion/subprojects/libgit2/src/path.h;/home/pi/Public/Criterion/subprojects/libgit2/src/pathspec.c;/home/pi/Public/Criterion/subprojects/libgit2/src/pathspec.h;/home/pi/Public/Criterion/subprojects/libgit2/src/pool.c;/home/pi/Public/Criterion/subprojects/libgit2/src/pool.h;/home/pi/Public/Criterion/subprojects/libgit2/src/posix.c;/home/pi/Public/Criterion/subprojects/libgit2/src/posix.h;/home/pi/Public/Criterion/subprojects/libgit2/src/pqueue.c;/home/pi/Public/Criterion/subprojects/libgit2/src/pqueue.h;/home/pi/Public/Criterion/subprojects/libgit2/src/proxy.c;/home/pi/Public/Criterion/subprojects/libgit2/src/proxy.h;/home/pi/Public/Criterion/subprojects/libgit2/src/push.c;/home/pi/Public/Criterion/subprojects/libgit2/src/push.h;/home/pi/Public/Criterion/subprojects/libgit2/src/rebase.c;/home/pi/Public/Criterion/subprojects/libgit2/src/refdb.c;/home/pi/Public/Criterion/subprojects/libgit2/src/refdb.h;/home/pi/Public/Criterion/subprojects/libgit2/src/refdb_fs.c;/home/pi/Public/Criterion/subprojects/libgit2/src/refdb_fs.h;/home/pi/Public/Criterion/subprojects/libgit2/src/reflog.c;/home/pi/Public/Criterion/subprojects/libgit2/src/reflog.h;/home/pi/Public/Criterion/subprojects/libgit2/src/refs.c;/home/pi/Public/Criterion/subprojects/libgit2/src/refs.h;/home/pi/Public/Criterion/subprojects/libgit2/src/refspec.c;/home/pi/Public/Criterion/subprojects/libgit2/src/refspec.h;/home/pi/Public/Criterion/subprojects/libgit2/src/remote.c;/home/pi/Public/Criterion/subprojects/libgit2/src/remote.h;/home/pi/Public/Criterion/subprojects/libgit2/src/repo_template.h;/home/pi/Public/Criterion/subprojects/libgit2/src/repository.c;/home/pi/Public/Criterion/subprojects/libgit2/src/repository.h;/home/pi/Public/Criterion/subprojects/libgit2/src/reset.c;/home/pi/Public/Criterion/subprojects/libgit2/src/revert.c;/home/pi/Public/Criterion/subprojects/libgit2/src/revparse.c;/home/pi/Public/Criterion/subprojects/libgit2/src/revwalk.c;/home/pi/Public/Criterion/subprojects/libgit2/src/revwalk.h;/home/pi/Public/Criterion/subprojects/libgit2/src/settings.c;/home/pi/Public/Criterion/subprojects/libgit2/src/sha1_lookup.c;/home/pi/Public/Criterion/subprojects/libgit2/src/sha1_lookup.h;/home/pi/Public/Criterion/subprojects/libgit2/src/signature.c;/home/pi/Public/Criterion/subprojects/libgit2/src/signature.h;/home/pi/Public/Criterion/subprojects/libgit2/src/socket_stream.c;/home/pi/Public/Criterion/subprojects/libgit2/src/socket_stream.h;/home/pi/Public/Criterion/subprojects/libgit2/src/sortedcache.c;/home/pi/Public/Criterion/subprojects/libgit2/src/sortedcache.h;/home/pi/Public/Criterion/subprojects/libgit2/src/stash.c;/home/pi/Public/Criterion/subprojects/libgit2/src/status.c;/home/pi/Public/Criterion/subprojects/libgit2/src/status.h;/home/pi/Public/Criterion/subprojects/libgit2/src/stransport_stream.c;/home/pi/Public/Criterion/subprojects/libgit2/src/stransport_stream.h;/home/pi/Public/Criterion/subprojects/libgit2/src/stream.h;/home/pi/Public/Criterion/subprojects/libgit2/src/strmap.c;/home/pi/Public/Criterion/subprojects/libgit2/src/strmap.h;/home/pi/Public/Criterion/subprojects/libgit2/src/strnlen.h;/home/pi/Public/Criterion/subprojects/libgit2/src/submodule.c;/home/pi/Public/Criterion/subprojects/libgit2/src/submodule.h;/home/pi/Public/Criterion/subprojects/libgit2/src/sysdir.c;/home/pi/Public/Criterion/subprojects/libgit2/src/sysdir.h;/home/pi/Public/Criterion/subprojects/libgit2/src/tag.c;/home/pi/Public/Criterion/subprojects/libgit2/src/tag.h;/home/pi/Public/Criterion/subprojects/libgit2/src/thread-utils.c;/home/pi/Public/Criterion/subprojects/libgit2/src/thread-utils.h;/home/pi/Public/Criterion/subprojects/libgit2/src/tls_stream.c;/home/pi/Public/Criterion/subprojects/libgit2/src/tls_stream.h;/home/pi/Public/Criterion/subprojects/libgit2/src/trace.c;/home/pi/Public/Criterion/subprojects/libgit2/src/trace.h;/home/pi/Public/Criterion/subprojects/libgit2/src/transaction.c;/home/pi/Public/Criterion/subprojects/libgit2/src/transaction.h;/home/pi/Public/Criterion/subprojects/libgit2/src/transport.c;/home/pi/Public/Criterion/subprojects/libgit2/src/transports/auth.c;/home/pi/Public/Criterion/subprojects/libgit2/src/transports/auth.h;/home/pi/Public/Criterion/subprojects/libgit2/src/transports/auth_negotiate.c;/home/pi/Public/Criterion/subprojects/libgit2/src/transports/auth_negotiate.h;/home/pi/Public/Criterion/subprojects/libgit2/src/transports/cred.c;/home/pi/Public/Criterion/subprojects/libgit2/src/transports/cred.h;/home/pi/Public/Criterion/subprojects/libgit2/src/transports/cred_helpers.c;/home/pi/Public/Criterion/subprojects/libgit2/src/transports/git.c;/home/pi/Public/Criterion/subprojects/libgit2/src/transports/http.c;/home/pi/Public/Criterion/subprojects/libgit2/src/transports/local.c;/home/pi/Public/Criterion/subprojects/libgit2/src/transports/smart.c;/home/pi/Public/Criterion/subprojects/libgit2/src/transports/smart.h;/home/pi/Public/Criterion/subprojects/libgit2/src/transports/smart_pkt.c;/home/pi/Public/Criterion/subprojects/libgit2/src/transports/smart_protocol.c;/home/pi/Public/Criterion/subprojects/libgit2/src/transports/ssh.c;/home/pi/Public/Criterion/subprojects/libgit2/src/transports/ssh.h;/home/pi/Public/Criterion/subprojects/libgit2/src/transports/winhttp.c;/home/pi/Public/Criterion/subprojects/libgit2/src/tree-cache.c;/home/pi/Public/Criterion/subprojects/libgit2/src/tree-cache.h;/home/pi/Public/Criterion/subprojects/libgit2/src/tree.c;/home/pi/Public/Criterion/subprojects/libgit2/src/tree.h;/home/pi/Public/Criterion/subprojects/libgit2/src/tsort.c;/home/pi/Public/Criterion/subprojects/libgit2/src/userdiff.h;/home/pi/Public/Criterion/subprojects/libgit2/src/util.c;/home/pi/Public/Criterion/subprojects/libgit2/src/util.h;/home/pi/Public/Criterion/subprojects/libgit2/src/varint.c;/home/pi/Public/Criterion/subprojects/libgit2/src/varint.h;/home/pi/Public/Criterion/subprojects/libgit2/src/vector.c;/home/pi/Public/Criterion/subprojects/libgit2/src/vector.h;/home/pi/Public/Criterion/subprojects/libgit2/src/xdiff/xdiff.h;/home/pi/Public/Criterion/subprojects/libgit2/src/xdiff/xdiffi.c;/home/pi/Public/Criterion/subprojects/libgit2/src/xdiff/xdiffi.h;/home/pi/Public/Criterion/subprojects/libgit2/src/xdiff/xemit.c;/home/pi/Public/Criterion/subprojects/libgit2/src/xdiff/xemit.h;/home/pi/Public/Criterion/subprojects/libgit2/src/xdiff/xhistogram.c;/home/pi/Public/Criterion/subprojects/libgit2/src/xdiff/xinclude.h;/home/pi/Public/Criterion/subprojects/libgit2/src/xdiff/xmacros.h;/home/pi/Public/Criterion/subprojects/libgit2/src/xdiff/xmerge.c;/home/pi/Public/Criterion/subprojects/libgit2/src/xdiff/xpatience.c;/home/pi/Public/Criterion/subprojects/libgit2/src/xdiff/xprepare.c;/home/pi/Public/Criterion/subprojects/libgit2/src/xdiff/xprepare.h;/home/pi/Public/Criterion/subprojects/libgit2/src/xdiff/xtypes.h;/home/pi/Public/Criterion/subprojects/libgit2/src/xdiff/xutils.c;/home/pi/Public/Criterion/subprojects/libgit2/src/xdiff/xutils.h;/home/pi/Public/Criterion/subprojects/libgit2/src/zstream.c;/home/pi/Public/Criterion/subprojects/libgit2/src/zstream.h', '/home/pi/Public/Criterion/subprojects/libgit2/src/unix/map.c;/home/pi/Public/Criterion/subprojects/libgit2/src/unix/posix.h;/home/pi/Public/Criterion/subprojects/libgit2/src/unix/pthread.h;/home/pi/Public/Criterion/subprojects/libgit2/src/unix/realpath.c', '/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/adler32.c;/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/crc32.c;/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/crc32.h;/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/deflate.c;/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/deflate.h;/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/infback.c;/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/inffast.c;/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/inffast.h;/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/inffixed.h;/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/inflate.c;/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/inflate.h;/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/inftrees.c;/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/inftrees.h;/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/trees.c;/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/trees.h;/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/zconf.h;/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/zlib.h;/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/zutil.c;/home/pi/Public/Criterion/subprojects/libgit2/deps/zlib/zutil.h', '/home/pi/Public/Criterion/subprojects/libgit2/deps/http-parser/http_parser.c;/home/pi/Public/Criterion/subprojects/libgit2/deps/http-parser/http_parser.h', '', '', '/home/pi/Public/Criterion/subprojects/libgit2/src/hash/hash_generic.c', ''])
+CMake project libgit2 has 1 build targets.
+
+Processing generated meson AST
+Build file: /home/pi/Public/Criterion/build/subprojects/libgit2/meson.build
+
+Project name: libgit2
+Project version: undefined
+C compiler for the host machine: cc (gcc 6.3.0 "cc (Raspbian 6.3.0-18+rpi1+deb9u1) 6.3.0 20170516")
+C linker for the host machine: cc ld.bfd 2.28
+C compiler for the build machine: cc (gcc 6.3.0 "cc (Raspbian 6.3.0-18+rpi1+deb9u1) 6.3.0 20170516")
+C linker for the build machine: cc ld.bfd 2.28
+Build targets in project: 4
+Subproject libgit2 finished.
+
+
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'boxfort' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion boxfort` -> 1
+
+CMake binary for MachineChoice.HOST is cached.
+None of 'CMAKE_PREFIX_PATH' are defined in the environment, not changing global flags.
+Preliminary CMake check failed. Aborting.
+Run-time dependency boxfort found: NO (tried pkgconfig and cmake)
+Looking for a fallback subproject for the dependency boxfort
+
+Executing subproject boxfort method meson 
+
+Project name: boxfort
+Project version: 0.0.1
+C compiler for the host machine: cc (gcc 6.3.0 "cc (Raspbian 6.3.0-18+rpi1+deb9u1) 6.3.0 20170516")
+C linker for the host machine: cc ld.bfd 2.28
+C compiler for the build machine: cc (gcc 6.3.0 "cc (Raspbian 6.3.0-18+rpi1+deb9u1) 6.3.0 20170516")
+C linker for the build machine: cc ld.bfd 2.28
+Program python3 found: YES (/usr/bin/python3)
+Program git found: YES (/usr/bin/git)
+Running command: /home/pi/Public/Criterion/ci/isdir.py .git
+--- stdout ---
+
+--- stderr ---
+
+
+Running command: /usr/bin/git describe --dirty --tags
+--- stdout ---
+
+--- stderr ---
+fatal: No names found, cannot describe anything.
+
+
+Running command: /usr/bin/git rev-parse --abbrev-ref HEAD
+--- stdout ---
+HEAD
+
+--- stderr ---
+
+
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-value: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -fvisibility=hidden: YES (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ cc: error: /SAFESEH:NO: No such file or directory
+
+Compiler for C supports arguments /SAFESEH:NO: NO (cached)
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ cc: error: /source-charset:utf-8: No such file or directory
+
+Compiler for C supports arguments /source-charset:utf-8: NO (cached)
+Dependency threads found: YES unknown (cached)
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpytgy63jg
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpytgy63jg/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpytgy63jg/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lrt -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library rt found: YES
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpw_g4wrhp
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpw_g4wrhp/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpw_g4wrhp/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library m found: YES
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpghgvcblk
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpghgvcblk/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpghgvcblk/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -O0 
+
+Code:
+ #ifdef __cplusplus
+        extern "C" {
+        #endif
+        void meson_uscore_prefix (void) {}
+        #ifdef __cplusplus
+        }
+        #endif
+        
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Symbols have underscore prefix: NO
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpq94guj18
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpq94guj18/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpq94guj18/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 -Wl,--start-group -lc -lrt -lm -Wl,--end-group 
+
+Code:
+ 
+        #define clock_gettime meson_disable_define_of_clock_gettime
+        
+#define _GNU_SOURCE
+
+        #include <limits.h>
+        #undef clock_gettime
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char clock_gettime (void);
+        
+        #if defined __stub_clock_gettime || defined __stub___clock_gettime
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return clock_gettime ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "clock_gettime" : YES 
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmp8r51pc8o
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmp8r51pc8o/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmp8r51pc8o/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 -Wl,--start-group -lc -lrt -lm -Wl,--end-group 
+
+Code:
+ 
+        #define gettimeofday meson_disable_define_of_gettimeofday
+        
+#define _GNU_SOURCE
+
+        #include <limits.h>
+        #undef gettimeofday
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char gettimeofday (void);
+        
+        #if defined __stub_gettimeofday || defined __stub___gettimeofday
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return gettimeofday ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "gettimeofday" : YES 
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmp4t4ngtoo
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmp4t4ngtoo/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmp4t4ngtoo/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 -Wl,--start-group -lc -lrt -lm -Wl,--end-group 
+
+Code:
+ 
+        #define mincore meson_disable_define_of_mincore
+        
+#define _GNU_SOURCE
+
+        #include <limits.h>
+        #undef mincore
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char mincore (void);
+        
+        #if defined __stub_mincore || defined __stub___mincore
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return mincore ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "mincore" : YES 
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmp54p7x984
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmp54p7x984/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmp54p7x984/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 -Wl,--start-group -lc -lrt -lm -Wl,--end-group 
+
+Code:
+ 
+        #define prctl meson_disable_define_of_prctl
+        
+#define _GNU_SOURCE
+
+        #include <limits.h>
+        #undef prctl
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char prctl (void);
+        
+        #if defined __stub_prctl || defined __stub___prctl
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return prctl ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "prctl" : YES 
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpij80qqu0
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpij80qqu0/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpij80qqu0/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 -Wl,--start-group -lc -lrt -lm -Wl,--end-group 
+
+Code:
+ 
+        #define shm_open meson_disable_define_of_shm_open
+        
+#define _GNU_SOURCE
+
+        #include <limits.h>
+        #undef shm_open
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char shm_open (void);
+        
+        #if defined __stub_shm_open || defined __stub___shm_open
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return shm_open ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "shm_open" : YES 
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpkyy1s07n
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpkyy1s07n/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpkyy1s07n/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+#define _GNU_SOURCE
+
+#include <unistd.h>
+#include <sys/mman.h>
+
+typedef int _(void *, size_t, unsigned char *);
+static _ *check = mincore;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmph471r223
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmph471r223/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmph471r223/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+#define _GNU_SOURCE
+
+        #include <sys/prctl.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef PR_SET_PDEATHSIG
+                PR_SET_PDEATHSIG;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <sys/prctl.h> has symbol "PR_SET_PDEATHSIG" : YES 
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+#define _GNU_SOURCE
+
+        #include <time.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef CLOCK_MONOTONIC_RAW
+                CLOCK_MONOTONIC_RAW;
+            #endif
+            return 0;
+        }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Header <time.h> has symbol "CLOCK_MONOTONIC_RAW" : YES (cached)
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmp22jmfuv0
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmp22jmfuv0/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmp22jmfuv0/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+#define _GNU_SOURCE
+
+        #include <unistd.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef environ
+                environ;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <unistd.h> has symbol "environ" : YES 
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpyw7csphe
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpyw7csphe/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpyw7csphe/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+#define _GNU_SOURCE
+
+        #include <link.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef _r_debug
+                _r_debug;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <link.h> has symbol "_r_debug" : YES 
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpnkjyfmsv
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpnkjyfmsv/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpnkjyfmsv/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+#define _GNU_SOURCE
+
+        #include <link.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef _DYNAMIC
+                _DYNAMIC;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <link.h> has symbol "_DYNAMIC" : YES 
+Configuring config.h using configuration
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpisg60vw3
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpisg60vw3/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpisg60vw3/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -DBXF_STATIC_LIB=1 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -DBXF_STATIC_LIB=1: YES 
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmp96dus71k
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmp96dus71k/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmp96dus71k/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--fatal-warnings -Wl,--exclude-libs,ALL 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports link arguments -Wl,--exclude-libs,ALL: YES 
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmph7_wftj5
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmph7_wftj5/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmph7_wftj5/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fvisibility=default 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -fvisibility=default: YES 
+Adding test "nested.c"
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -fvisibility=default: YES (cached)
+Adding test "callback.c"
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -fvisibility=default: YES (cached)
+Adding test "timeout.c"
+Using cached compile:
+Cached command line:   
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -fvisibility=default: YES (cached)
+Adding test "context.c"
+Program sh found: YES (/bin/sh)
+[Errno 21] Is a directory: '/home/pi/Public/Criterion/subprojects/boxfort/test/cram'
+Unusable script '/home/pi/Public/Criterion/subprojects/boxfort/test/cram'
+Program cram found: NO
+Build targets in project: 9
+Subproject boxfort finished.
+
+Dependency boxfort from subproject subprojects/boxfort found: YES 0.0.1
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libffi' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libffi` -> 0
+3.2.1
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags libffi` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libffi --libs` -> 0
+-lffi
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libffi --libs` -> 0
+-lffi
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmp_fifps9i
+Command line:  c++ /home/pi/Public/Criterion/build/meson-private/tmp_fifps9i/testfile.cpp -o /home/pi/Public/Criterion/build/meson-private/tmp_fifps9i/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lffi -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Run-time dependency libffi found: YES 3.2.1
+Library rt found: YES
+Library m found: YES
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpt7k5h_zl
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmpt7k5h_zl/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmpt7k5h_zl/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lintl -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -lintl
+collect2: error: ld returned 1 exit status
+
+Library intl found: NO
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmp0u82x2_l
+Command line:  cc /home/pi/Public/Criterion/build/meson-private/tmp0u82x2_l/testfile.c -o /home/pi/Public/Criterion/build/meson-private/tmp0u82x2_l/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #include <libintl.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef gettext
+                gettext;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <libintl.h> has symbol "gettext" with dependency -lintl: YES 
+Configuring config.h using configuration
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Using cached compile:
+Cached command line:   
+
+Code:
+ int main(void) { return 0; }
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports link arguments -Wl,--exclude-libs,ALL: YES (cached)
+Adding test "sample / asserts.c"
+Adding test "sample / description.c"
+Adding test "sample / fixtures.c"
+Adding test "sample / log.c"
+Adding test "sample / more-suites.c"
+Adding test "sample / parameterized.c"
+Adding test "sample / redirect.c"
+Adding test "sample / report.c"
+Adding test "sample / signal.c"
+Adding test "sample / simple.c"
+Adding test "sample / skip.c"
+Adding test "sample / suites.c"
+Adding test "sample / timeout.c"
+Adding test "sample / theories.c"
+Adding test "sample / asserts.cc"
+Adding test "sample / description.cc"
+Adding test "sample / fixtures.cc"
+Adding test "sample / log.cc"
+Adding test "sample / more-suites.cc"
+Adding test "sample / parameterized.cc"
+Adding test "sample / redirect.cc"
+Adding test "sample / report.cc"
+Adding test "sample / signal.cc"
+Adding test "sample / simple.cc"
+Adding test "sample / skip.cc"
+Adding test "sample / suites.cc"
+Adding test "sample / theories.cc"
+Adding test "unit tests"
+Adding test "full / exit.c"
+Adding test "full / failmessages.c"
+Adding test "full / flood.c"
+Adding test "full / long-messages.c"
+Adding test "full / other-crashes.c"
+Adding test "full / with-time.c"
+Adding test "full / theories_regression.c"
+Adding test "full / exception.cc"
+Adding test "full / exit.cc"
+Adding test "full / failmessages.cc"
+Adding test "full / long-messages.cc"
+Adding test "full / other-crashes.cc"
+Adding test "full / theories_regression.cc"
+Program sh found: YES (/bin/sh)
+Program cram found: NO
+Build targets in project: 52
+
+criterion 2.3.3
+
+  Subprojects
+    libgit2: YES
+    boxfort: YES
+     nanopb: YES
+    nanomsg: YES
+
+Found ninja-1.7.2 at /usr/bin/ninja
+Running compile:
+Working directory:  /tmp/tmpt2y8ft3x
+Command line:  c++ /tmp/tmpt2y8ft3x/testfile.cpp -o /tmp/tmpt2y8ft3x/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++11 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++11: YES
+Running compile:
+Working directory:  /home/pi/Public/Criterion/build/meson-private/tmpmu28xs0_
+Command line:  c++ /home/pi/Public/Criterion/build/meson-private/tmpmu28xs0_/testfile.cpp -o /home/pi/Public/Criterion/build/meson-private/tmpmu28xs0_/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/arm-linux-gnueabihf/6/
+programs: =/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/bin/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/bin/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/bin/
+libraries: =/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../../arm-linux-gnueabihf/lib/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../:/lib/arm-linux-gnueabihf/6/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/6/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+
+Compiler stderr:
+ 
+None of 'STRIP' are defined in the environment, not changing global flags.
+None of 'STRIP' are defined in the environment, not changing global flags.
+NOTICE: You are using Python 3.5 which is EOL. Starting with v0.57, Meson will require Python 3.6 or newer

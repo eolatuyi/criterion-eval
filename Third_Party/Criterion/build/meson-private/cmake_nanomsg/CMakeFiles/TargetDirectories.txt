@@ -1,0 +1,2 @@
+/home/pi/Public/Criterion/build/meson-private/cmake_nanomsg/CMakeFiles/rebuild_cache.dir
+/home/pi/Public/Criterion/build/meson-private/cmake_nanomsg/CMakeFiles/edit_cache.dir

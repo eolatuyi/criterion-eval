@@ -1,0 +1,1 @@
+[{"compile_args": ["-pthread"], "link_args": ["-pthread"], "version": "unknown", "name": "threads"}, {"compile_args": [], "link_args": ["-lffi"], "version": "3.2.1", "name": "libffi"}]

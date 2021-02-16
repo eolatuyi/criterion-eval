@@ -1,0 +1,7 @@
+/home/pi/Public/Criterion/build/subprojects/libgit2/__CMake_build/CMakeFiles/install/local.dir
+/home/pi/Public/Criterion/build/subprojects/libgit2/__CMake_build/CMakeFiles/install.dir
+/home/pi/Public/Criterion/build/subprojects/libgit2/__CMake_build/CMakeFiles/git2.dir
+/home/pi/Public/Criterion/build/subprojects/libgit2/__CMake_build/CMakeFiles/install/strip.dir
+/home/pi/Public/Criterion/build/subprojects/libgit2/__CMake_build/CMakeFiles/edit_cache.dir
+/home/pi/Public/Criterion/build/subprojects/libgit2/__CMake_build/CMakeFiles/rebuild_cache.dir
+/home/pi/Public/Criterion/build/subprojects/libgit2/__CMake_build/CMakeFiles/list_install_components.dir
